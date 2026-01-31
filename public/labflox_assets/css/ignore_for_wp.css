@@ -410,4 +410,5 @@
     display: block;
     transform: scale(3.0);
     transform-origin: left center;
+    filter: brightness(1.32);
 }
