@@ -402,3 +402,12 @@
     position: relative;
     padding: 120px 0;
 }
+
+.header01 .logo.logo--large {
+    overflow: visible;
+}
+.header01 .logo.logo--large img {
+    display: block;
+    transform: scale(3.0);
+    transform-origin: left center;
+}

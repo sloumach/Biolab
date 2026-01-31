@@ -102,8 +102,8 @@
     position: relative;
     overflow: hidden;
     width: 190px;
-    border-right: 1px solid rgba(204, 204, 204, .2);
-    padding: 12px 0 23px;
+    /* border-right: 1px solid rgba(204, 204, 204, .2);
+    padding: 12px 0 23px; */
 }
 .header02 .logo{
     width: 31.578947%;

@@ -55,7 +55,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="navArea">
-                            <div class="logo">
+                            <div class="logo logo--large">
                                 {{-- <a href="index.html"> --}}<img src="labflox_assets/images/biolab-logo.png" alt="Labflox"/>{{-- </a> --}}
                             </div>
                             <nav class="mainMenu">
