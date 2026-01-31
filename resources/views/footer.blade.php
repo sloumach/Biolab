@@ -2,7 +2,7 @@
         <footer class="footer01">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-lg-3">
+                    <div class="col-md-6 col-lg-3 mx-auto mx-lg-0 text-center text-lg-start">
                         <aside class="widget">
                             <div class="contactWidtetContent">
                                 <div class="footerLogo">

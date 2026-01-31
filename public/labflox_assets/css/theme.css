@@ -2088,7 +2088,7 @@
 /------------------------------------------------------*/
 .footer01{
     position: relative;
-    padding: 94px 0 0;
+    padding: 64px 0 0;
     background: url(../images/bg/6.jpg) no-repeat bottom left #1c1c1c;
 }
 .footer01.colorMode2{
@@ -2323,7 +2323,7 @@
     font-size: 17px;
     color: #f13127;
     line-height: 1;
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     top: 1px;
 }
