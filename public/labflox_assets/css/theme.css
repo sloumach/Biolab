@@ -2,7 +2,7 @@
  Theme Name: Labflox
  Theme URI: https://themewar.com/html/labflox/
  Author: Themewar
- Author URI: 
+ Author URI:
  Description: Labflox - Laboratory & Research Responsive HTML Template
  Version: 1.0
  License:
@@ -311,7 +311,7 @@
     font-weight: 400;
     color: #FFF;
     font-size: 14px;
-    line-height: 24px; 
+    line-height: 24px;
 }
 .header02 .mainMenu > ul ul li.menu-item-has-children:hover:after{
     color: #33d1cb;
@@ -2162,15 +2162,15 @@
 }
 .subscribeForm form input[type="email"]::-moz-placeholder{
     color: rgba(255, 255, 255, .3);
-    opacity: 1; 
+    opacity: 1;
 }
 .subscribeForm form input[type="email"]::-ms-input-placeholder{
     color: rgba(255, 255, 255, .3);
-    opacity: 1; 
+    opacity: 1;
 }
 .subscribeForm form input[type="email"]::-webkit-input-placeholder{
     color: rgba(255, 255, 255, .3);
-    opacity: 1; 
+    opacity: 1;
 }
 .subscribeForm button{
     height: 38px;
@@ -2314,7 +2314,7 @@
     color: inherit;
 }
 .cwcInfo a:hover{
-    color: #f13127; 
+    color: #f13127;
 }
 .colorMode2 .cwcInfo a:hover{
     color: #33d1cb;
@@ -2338,7 +2338,7 @@
 }
 .copyrightRow{
     position: relative;
-    border-top: 1px solid rgba(255, 255, 255, .2);
+    /* border-top: 1px solid rgba(255, 255, 255, .2); */
 }
 .siteInfo{
     position: relative;
@@ -2615,7 +2615,7 @@
     bottom: 0;
     z-index: 2;
     padding: 40px 35px 43px 62px;
-} 
+}
 .riContent:before{
     position: absolute;
     left: 0;
@@ -2982,7 +2982,7 @@
     margin: 0;
 }
 .ppFeatures ul li:before{
-    content: ''; 
+    content: '';
     width: 18px;
     height: 14px;
     position: absolute;
@@ -3931,17 +3931,17 @@
 .appointmentForm input::-moz-placeholder,
 .appointmentForm textarea::-moz-placeholder{
     color: #4c4d56;
-    opacity: 1; 
+    opacity: 1;
 }
 .appointmentForm input::-ms-input-placeholder,
 .appointmentForm textarea::-ms-input-placeholder{
     color: #4c4d56;
-    opacity: 1; 
+    opacity: 1;
 }
 .appointmentForm input::-webkit-input-placeholder,
 .appointmentForm textarea::-webkit-input-placeholder{
     color: #4c4d56;
-    opacity: 1; 
+    opacity: 1;
 }
 .appointmentForm button{
     position: relative;
@@ -4080,17 +4080,17 @@
 .contactForm input::-moz-placeholder,
 .contactForm textarea::-moz-placeholder{
     color: #787884;
-    opacity: 1; 
+    opacity: 1;
 }
 .contactForm input::-ms-input-placeholder,
 .contactForm textarea::-ms-input-placeholder{
     color: #787884;
-    opacity: 1; 
+    opacity: 1;
 }
 .contactForm input::-webkit-input-placeholder,
 .contactForm textarea::-webkit-input-placeholder{
     color: #787884;
-    opacity: 1; 
+    opacity: 1;
 }
 .contactForm .lab_btn{
     border: none;
@@ -4203,15 +4203,15 @@
 }
 .searchForm input::-moz-placeholder{
     color: #8889ac;
-    opacity: 1; 
+    opacity: 1;
 }
 .searchForm input::-ms-input-placeholder{
     color: #8889ac;
-    opacity: 1; 
+    opacity: 1;
 }
 .searchForm input::-webkit-input-placeholder{
     color: #8889ac;
-    opacity: 1; 
+    opacity: 1;
 }
 .searchForm button{
     width: 60px;
@@ -4513,7 +4513,7 @@ blockquote p{
     font-family: 'Roboto', sans-serif;
     height: 30px;
     line-height: 30px;
-    font-size: 14px; 
+    font-size: 14px;
     color: #FFF;
     font-weight: 700;
     background: #fc3329;

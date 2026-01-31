@@ -56,10 +56,10 @@
                     <div class="col-lg-12">
                         <div class="navArea">
                             <div class="logo">
-                                <a href="index.html"><img src="labflox_assets/images/logo.png" alt="Labflox"/></a>
+                                {{-- <a href="index.html"> --}}<img src="labflox_assets/images/logo.png" alt="Labflox"/>{{-- </a> --}}
                             </div>
                             <nav class="mainMenu">
-                                <ul>
+                                {{-- <ul>
                                     <li class="current-menu-item menu-item-has-children">
                                         <a href="javascript:void(0);">Home</a>
                                         <ul>
@@ -106,7 +106,7 @@
                                         </ul>
                                     </li>
                                     <li><a href="contact-us.html">Contact</a></li>
-                                </ul>
+                                </ul> --}}
                             </nav>
                             <div class="accessNav">
                                 <div class="phoneCall">
@@ -206,7 +206,7 @@
                                 data-textAlign="['left','left','center','center']"
                                 data-marginleft="['0','0','0','0']"
 
-                                ><a href="#" class="lab_btn_1">Our Packages</a></div>
+                                >{{-- <a href="#" class="lab_btn_1">Our Packages</a> --}}</div>
                             <div class="tp-caption tp-resizeme"
                                 data-x="['right','right','right','right']"
                                 data-hoffset="['73','0','0','0']"
@@ -342,7 +342,7 @@
                                 data-textAlign="['left','left','center','center']"
                                 data-marginleft="['0','0','0','0']"
 
-                                ><a href="#" class="lab_btn_1">Our Packages</a></div>
+                                >{{-- <a href="#" class="lab_btn_1">Our Packages</a> --}}</div>
                             <div class="tp-caption tp-resizeme"
                                 data-x="['right','right','right','right']"
                                 data-hoffset="['73','0','0','0']"
@@ -478,7 +478,7 @@
                                 data-textAlign="['left','left','center','center']"
                                 data-marginleft="['0','0','0','0']"
 
-                                ><a href="#" class="lab_btn_1">Our Packages</a></div>
+                                >{{-- <a href="#" class="lab_btn_1">Our Packages</a> --}}</div>
                             <div class="tp-caption tp-resizeme"
                                 data-x="['right','right','right','right']"
                                 data-hoffset="['73','0','0','0']"
@@ -789,7 +789,7 @@
         <!-- Section End -->
 
         <!-- Testimonial Section Start -->
-        <section class="testimonialSection">
+        {{-- <section class="testimonialSection">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -872,11 +872,11 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- Testimonial Section End -->
 
         <!-- CTA Section Start -->
-        <section class="ctaSection">
+        {{-- <section class="ctaSection">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-lg-7">
@@ -895,7 +895,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- CTA Section End -->
 
         <!-- Blog Section Start -->
@@ -970,112 +970,7 @@
         </section>
         <!-- Blog Section End -->
 
-        <!-- Section Start -->
-        <footer class="footer01">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="subscribeForm">
-                            <div class="row">
-                                <div class="col-lg-5">
-                                    <div class="sfLeft">
-                                        <!--<i class="laf-CaWRfT01"></i>-->
-                                        <img src="labflox_assets/images/icons/1.png" alt=""/>
-                                        <h3>
-                                            Get latest updates Subscribe
-                                            to Our Newsletter
-                                        </h3>
-                                    </div>
-                                </div>
-                                <div class="col-lg-7">
-                                    <form method="post" action="#">
-                                        <input type="email" name="email" placeholder="Your Mail Address"/>
-                                        <button type="submit">Subscribe Now</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row widgetRow">
-                    <div class="col-md-6 col-lg-3">
-                        <aside class="widget">
-                            <div class="contactWidtetContent">
-                                <div class="footerLogo">
-                                    <a href="index.html"><img src="labflox_assets/images/logo.png" alt="LabFlox"/></a>
-                                </div>
-                                <div class="cwcInfo">
-                                    <i class="laf-y4LP01"></i>
-                                    +91 458 654 528
-                                </div>
-                                <div class="cwcInfo">
-                                    <i class="laf-BqBcxz01"></i>
-                                    <a href="javascript:void(0);">info@example.com</a>
-                                </div>
-                                <div class="cwcInfo">
-                                    <i class="laf-A8AIr201"></i>
-                                    60 East 65th Street, NY
-                                </div>
-                            </div>
-                        </aside>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <aside class="widget">
-                            <h3 class="widgetTitle">Our Pathology</h3>
-                            <ul>
-                                <li><a href="javascript:void(0);">Molecular Diagnostics</a></li>
-                                <li><a href="javascript:void(0);">Molecular Hematology</a></li>
-                                <li><a href="javascript:void(0);">Microbiology</a></li>
-                                <li><a href="javascript:void(0);">Transfusion Medicine</a></li>
-                            </ul>
-                        </aside>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <aside class="widget">
-                            <h3 class="widgetTitle">Services</h3>
-                            <ul>
-                                <li><a href="javascript:void(0);">Complete Blood Count</a></li>
-                                <li><a href="javascript:void(0);">Comprehensive Metabolic Panel</a></li>
-                                <li><a href="javascript:void(0);">Cholesterol / Lipid Levels</a></li>
-                                <li><a href="javascript:void(0);">Liver Function Blood Test</a></li>
-                            </ul>
-                        </aside>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <aside class="widget">
-                            <h3 class="widgetTitle">Preparation tips</h3>
-                            <ul>
-                                <li><a href="javascript:void(0);">Before Your Blood Test</a></li>
-                                <li><a href="javascript:void(0);">What to Expect During the Draw</a></li>
-                                <li><a href="javascript:void(0);">Microbiology</a></li>
-                                <li><a href="javascript:void(0);">Transfusion Medicine</a></li>
-                            </ul>
-                        </aside>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="copyrightRow">
-                            <div class="row">
-                                <div class="col-md-6 col-lg-6">
-                                    <div class="siteInfo">© 2021 Labflox All rights reserved.</div>
-                                </div>
-                                <div class="col-md-6 col-lg-6">
-                                    <div class="siteSocial">
-                                        <a href="javascript:void(0);"><i class="fa fa-facebook-square"></i></a>
-                                        <a href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
-                                        <a href="javascript:void(0);"><i class="fa fa-pinterest"></i></a>
-                                        <a href="javascript:void(0);"><i class="fa fa-github"></i></a>
-                                        <a href="javascript:void(0);"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Section End -->
+        @include('footer')
 
         <!-- Back To Top -->
         <a href="javascript:void(0);" id="backtotop"><i class="fa fa-angle-double-up"></i></a>
