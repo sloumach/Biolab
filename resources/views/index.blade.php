@@ -6,30 +6,30 @@
         <meta name="keywords" content="">
         <meta name="author" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Labflox - Laboratory & Research</title>
+        <title>Biolab - Laboratory & Research</title>
 
         <!-- Start Include All CSS -->
-        <link rel="stylesheet" href="labflox_assets/css/bootstrap.css"/>
-        <link rel="stylesheet" href="labflox_assets/css/animate.css"/>
-        <link rel="stylesheet" href="labflox_assets/css/font-awesome.css"/>
-        <link rel="stylesheet" href="labflox_assets/css/labflox-icon.css"/>
-        <link rel="stylesheet" href="labflox_assets/css/owl.theme.default.min.css"/>
-        <link rel="stylesheet" href="labflox_assets/css/owl.carousel.min.css"/>
-        <link rel="stylesheet" href="labflox_assets/css/slick.css">
-        <link rel="stylesheet" href="labflox_assets/css/lightcase.css">
-        <link rel="stylesheet" href="labflox_assets/css/preloader.css">
+        <link rel="stylesheet" href="biolab_assets/css/bootstrap.css"/>
+        <link rel="stylesheet" href="biolab_assets/css/animate.css"/>
+        <link rel="stylesheet" href="biolab_assets/css/font-awesome.css"/>
+        <link rel="stylesheet" href="biolab_assets/css/labflox-icon.css"/>
+        <link rel="stylesheet" href="biolab_assets/css/owl.theme.default.min.css"/>
+        <link rel="stylesheet" href="biolab_assets/css/owl.carousel.min.css"/>
+        <link rel="stylesheet" href="biolab_assets/css/slick.css">
+        <link rel="stylesheet" href="biolab_assets/css/lightcase.css">
+        <link rel="stylesheet" href="biolab_assets/css/preloader.css">
 
         <!-- Revolution Slider Setting CSS -->
-        <link rel="stylesheet" href="labflox_assets/css/settings.css">
+        <link rel="stylesheet" href="biolab_assets/css/settings.css">
 
-        <link rel="stylesheet" href="labflox_assets/css/preset.css"/>
-        <link rel="stylesheet" href="labflox_assets/css/ignore_for_wp.css"/>
-        <link rel="stylesheet" href="labflox_assets/css/theme.css"/>
-        <link rel="stylesheet" href="labflox_assets/css/responsive.css"/>
+        <link rel="stylesheet" href="biolab_assets/css/preset.css"/>
+        <link rel="stylesheet" href="biolab_assets/css/ignore_for_wp.css"/>
+        <link rel="stylesheet" href="biolab_assets/css/theme.css"/>
+        <link rel="stylesheet" href="biolab_assets/css/responsive.css"/>
         <!-- End Include All CSS -->
 
         <!-- Favicon Icon -->
-        <link rel="icon"  type="image/png" href="labflox_assets/images/favicon.png">
+        <link rel="icon"  type="image/png" href="biolab_assets/images/favicon.png">
         <!-- Favicon Icon -->
     </head>
     <body>
@@ -56,7 +56,7 @@
                     <div class="col-lg-12">
                         <div class="navArea">
                             <div class="logo logo--large">
-                                {{-- <a href="index.html"> --}}<img src="labflox_assets/images/biolab-logo.png" alt="Labflox"/>{{-- </a> --}}
+                                {{-- <a href="index.html"> --}}<img src="biolab_assets/images/biolab-logo.png" alt="Labflox"/>{{-- </a> --}}
                             </div>
                             <nav class="mainMenu">
                                 {{-- <ul>
@@ -130,7 +130,7 @@
                 <div id="rev_slider_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
                     <ul>
                         <li data-index="rs-3046" data-transition="random-premium" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1000"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                            <img src="labflox_assets/images/slider/1.1.jpg"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                            <img src="biolab_assets/images/slider/1.1.jpg"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                             <div class="tp-caption tp-resizeme heebo"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -266,7 +266,7 @@
                                 ></div>
                         </li>
                         <li data-index="rs-3047" data-transition="random-premium" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1000"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                            <img src="labflox_assets/images/slider/1.2.jpg"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                            <img src="biolab_assets/images/slider/1.2.jpg"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                             <div class="tp-caption tp-resizeme heebo"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -402,7 +402,7 @@
                                 ></div>
                         </li>
                         <li data-index="rs-3048" data-transition="random-premium" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1000"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                            <img src="labflox_assets/images/slider/1.3.jpg"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                            <img src="biolab_assets/images/slider/1.3.jpg"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                             <div class="tp-caption tp-resizeme heebo"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -551,7 +551,7 @@
                         <div class="serviceLeft">
                             <h2>Largest provider of specialty laboratory testing services</h2>
                             <p>Our qualified and ardent team of doctors and <br> technologists provide strong support Interactively coordinate <br> proactive e-commerce via process-centric outside the box.</p>
-                            <img src="labflox_assets/images/signature.png" alt="Mark Anthony"/>
+                            <img src="biolab_assets/images/signature.png" alt="Mark Anthony"/>
                             <h5>Mark Anthony &nbsp;&nbsp;/&nbsp;&nbsp; <span>Director</span></h5>
                         </div>
                     </div>
@@ -560,7 +560,7 @@
                             <h2>Our Services</h2>
                             <div class="serviceSlider owl-carousel">
                                 <div class="singleService01">
-                                    <img src="labflox_assets/images/services/1.jpg" alt=""/>
+                                    <img src="biolab_assets/images/services/1.jpg" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-GA9M8J01"></i>
                                         <h3><a href="service-single.html">Laboratory  Service</a></h3>
@@ -570,7 +570,7 @@
                                     </div>
                                 </div>
                                 <div class="singleService01">
-                                    <img src="labflox_assets/images/services/2.jpg" alt=""/>
+                                    <img src="biolab_assets/images/services/2.jpg" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-Yk7aBo01"></i>
                                         <h3><a href="service-single.html">Medicine Research</a></h3>
@@ -580,7 +580,7 @@
                                     </div>
                                 </div>
                                 <div class="singleService01">
-                                    <img src="labflox_assets/images/services/3.jpg" alt=""/>
+                                    <img src="biolab_assets/images/services/3.jpg" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-MjY3z001"></i>
                                         <h3><a href="service-single.html">Clinical Research</a></h3>
@@ -590,7 +590,7 @@
                                     </div>
                                 </div>
                                 <div class="singleService01">
-                                    <img src="labflox_assets/images/services/1.jpg" alt=""/>
+                                    <img src="biolab_assets/images/services/1.jpg" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-Yk7aBo01"></i>
                                         <h3><a href="service-single.html">Laboratory  Service</a></h3>
@@ -682,7 +682,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="aboutImg text-right">
-                            <img src="labflox_assets/images/home1/1.jpg" alt=""/>
+                            <img src="biolab_assets/images/home1/1.jpg" alt=""/>
                             <div class="expCounter">
                                 <span class="counters" data-count="25" data-suffix="" data-format="plain">05</span>
                                 <span>Years of Experience</span>
@@ -801,22 +801,22 @@
                     <div class="col-lg-12">
                         <div class="testiMonialAuthors">
                             <div class="tmaItem">
-                                <img src="labflox_assets/images/author/1.png" alt=""/>
+                                <img src="biolab_assets/images/author/1.png" alt=""/>
                             </div>
                             <div class="tmaItem">
-                                <img src="labflox_assets/images/author/2.png" alt=""/>
+                                <img src="biolab_assets/images/author/2.png" alt=""/>
                             </div>
                             <div class="tmaItem">
-                                <img src="labflox_assets/images/author/3.png" alt=""/>
+                                <img src="biolab_assets/images/author/3.png" alt=""/>
                             </div>
                             <div class="tmaItem">
-                                <img src="labflox_assets/images/author/4.png" alt=""/>
+                                <img src="biolab_assets/images/author/4.png" alt=""/>
                             </div>
                             <div class="tmaItem">
-                                <img src="labflox_assets/images/author/5.png" alt=""/>
+                                <img src="biolab_assets/images/author/5.png" alt=""/>
                             </div>
                             <div class="tmaItem">
-                                <img src="labflox_assets/images/author/3.png" alt=""/>
+                                <img src="biolab_assets/images/author/3.png" alt=""/>
                             </div>
                         </div>
                         <div class="testiMonialContentSlider">
@@ -890,7 +890,7 @@
                     </div>
                     <div class="col-md-6 col-lg-5">
                         <div class="imgDiv">
-                            <img src="labflox_assets/images/home1/2.png" alt="Labflox"/>
+                            <img src="biolab_assets/images/home1/2.png" alt="Labflox"/>
                         </div>
                     </div>
                 </div>
@@ -911,7 +911,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="newsItem">
                             <div class="niThumb">
-                                <img src="labflox_assets/images/news/1.png" alt="Labflox"/>
+                                <img src="biolab_assets/images/news/1.png" alt="Labflox"/>
                             </div>
                             <div class="niDetails">
                                 <div class="niDate roboto"><span>25</span><span>Oct</span></div>
@@ -930,7 +930,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="newsItem">
                             <div class="niThumb">
-                                <img src="labflox_assets/images/news/2.png" alt="Labflox"/>
+                                <img src="biolab_assets/images/news/2.png" alt="Labflox"/>
                             </div>
                             <div class="niDetails">
                                 <div class="niDate roboto"><span>27</span><span>Oct</span></div>
@@ -949,7 +949,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="newsItem">
                             <div class="niThumb">
-                                <img src="labflox_assets/images/news/3.png" alt="Labflox"/>
+                                <img src="biolab_assets/images/news/3.png" alt="Labflox"/>
                             </div>
                             <div class="niDetails">
                                 <div class="niDate roboto"><span>28</span><span>Oct</span></div>
@@ -977,31 +977,30 @@
         <!-- Back To Top -->
 
         <!-- Start Include All JS -->
-        <script src="labflox_assets/js/jquery.js"></script>
-        <script src="labflox_assets/js/bootstrap.min.js"></script>
-        <script src="labflox_assets/js/owl.carousel.min.js"></script>
-        <script src="labflox_assets/js/jquery.appear.js"></script>
-        <script src="labflox_assets/js/circle-progress.min.js"></script>
-        <script src="labflox_assets/js/slick.js"></script>
-        <script src="labflox_assets/js/lightcase.js"></script>
-        <script src="labflox_assets/js/litepicker.js"></script>
+        <script src="biolab_assets/js/jquery.js"></script>
+        <script src="biolab_assets/js/bootstrap.min.js"></script>
+        <script src="biolab_assets/js/owl.carousel.min.js"></script>
+        <script src="biolab_assets/js/jquery.appear.js"></script>
+        <script src="biolab_assets/js/circle-progress.min.js"></script>
+        <script src="biolab_assets/js/slick.js"></script>
+        <script src="biolab_assets/js/lightcase.js"></script>
 
         <!-- Slider Revolution Main Files -->
-        <script src="labflox_assets/js/jquery.themepunch.tools.min.js"></script>
-        <script src="labflox_assets/js/jquery.themepunch.revolution.min.js"></script>
+        <script src="biolab_assets/js/jquery.themepunch.tools.min.js"></script>
+        <script src="biolab_assets/js/jquery.themepunch.revolution.min.js"></script>
 
         <!-- Slider Revolution Extension -->
-        <script src="labflox_assets/js/extensions/revolution.extension.actions.min.js"></script>
-        <script src="labflox_assets/js/extensions/revolution.extension.carousel.min.js"></script>
-        <script src="labflox_assets/js/extensions/revolution.extension.kenburn.min.js"></script>
-        <script src="labflox_assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script src="labflox_assets/js/extensions/revolution.extension.migration.min.js"></script>
-        <script src="labflox_assets/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script src="labflox_assets/js/extensions/revolution.extension.parallax.min.js"></script>
-        <script src="labflox_assets/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script src="labflox_assets/js/extensions/revolution.extension.video.min.js"></script>
+        <script src="biolab_assets/js/extensions/revolution.extension.actions.min.js"></script>
+        <script src="biolab_assets/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script src="biolab_assets/js/extensions/revolution.extension.kenburn.min.js"></script>
+        <script src="biolab_assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script src="biolab_assets/js/extensions/revolution.extension.migration.min.js"></script>
+        <script src="biolab_assets/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script src="biolab_assets/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script src="biolab_assets/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script src="biolab_assets/js/extensions/revolution.extension.video.min.js"></script>
 
-        <script src="labflox_assets/js/theme.js"></script>
+        <script src="biolab_assets/js/theme.js"></script>
         <!-- End Include All JS -->
     </body>
 </html>
