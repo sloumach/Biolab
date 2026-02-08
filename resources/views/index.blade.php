@@ -8,42 +8,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Biolab - Laboratory & Research</title>
 
-        <!-- Start Include All CSS -->
-        <link rel="stylesheet" href="biolab_assets/css/bootstrap.css"/>
-        <link rel="stylesheet" href="biolab_assets/css/animate.css"/>
-        <link rel="stylesheet" href="biolab_assets/css/font-awesome.css"/>
-        <link rel="stylesheet" href="biolab_assets/css/labflox-icon.css"/>
-        <link rel="stylesheet" href="biolab_assets/css/owl.theme.default.min.css"/>
-        <link rel="stylesheet" href="biolab_assets/css/owl.carousel.min.css"/>
-        <link rel="stylesheet" href="biolab_assets/css/slick.css">
-        <link rel="stylesheet" href="biolab_assets/css/lightcase.css">
-        <link rel="stylesheet" href="biolab_assets/css/preloader.css">
-
-        <!-- Revolution Slider Setting CSS -->
-        <link rel="stylesheet" href="biolab_assets/css/settings.css">
-
-        <link rel="stylesheet" href="biolab_assets/css/preset.css"/>
-        <link rel="stylesheet" href="biolab_assets/css/ignore_for_wp.css"/>
-        <link rel="stylesheet" href="biolab_assets/css/theme.css"/>
-        <link rel="stylesheet" href="biolab_assets/css/responsive.css"/>
-        <!-- End Include All CSS -->
-
-        <!-- Favicon Icon -->
-        <link rel="icon"  type="image/png" href="biolab_assets/images/favicon.png">
-        <!-- Favicon Icon -->
+        @include('partials.styles')
     </head>
     <body>
         <!-- Preloader Start -->
         <div class="preloader clock text-center">
             <div class="labfloxLoader">
                 <div class="loaderO">
+                    <span>B</span>
+                    <span>I</span>
+                    <span>O</span>
                     <span>L</span>
                     <span>A</span>
                     <span>B</span>
-                    <span>F</span>
-                    <span>L</span>
-                    <span>O</span>
-                    <span>X</span>
                 </div>
             </div>
         </div>
@@ -59,54 +36,7 @@
                                 {{-- <a href="index.html"> --}}<img src="biolab_assets/images/biolab-logo.png" alt="Labflox"/>{{-- </a> --}}
                             </div>
                             <nav class="mainMenu">
-                                {{-- <ul>
-                                    <li class="current-menu-item menu-item-has-children">
-                                        <a href="javascript:void(0);">Home</a>
-                                        <ul>
-                                            <li><a href="index.html">Home Version 01</a></li>
-                                            <li><a href="index2.html">Home Version 02</a></li>
-                                            <li><a href="index3.html">Home Version 03</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="javascript:void(0);">Pages</a>
-                                        <ul>
-                                            <li><a href="appointment.html">Appointment</a></li>
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="service-single.html">Service Details</a></li>
-                                            <li><a href="research.html">Research</a></li>
-                                            <li><a href="research-single.html">Research Details</a></li>
-                                            <li><a href="package.html">Package</a></li>
-                                            <li><a href="team.html">Team</a></li>
-                                            <li><a href="team-single.html">Team Details</a></li>
-                                            <li><a href="gallery.html">Gallery</a></li>
-                                            <li><a href="gallery-single.html">Gallery Details</a></li>
-                                            <li><a href="faq.html">FAQ</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li class="menu-item-has-children">
-                                        <a href="javascript:void(0);">Blog</a>
-                                        <ul>
-                                            <li class="menu-item-has-children"><a href="javascript:void(0);">Blog Grid Views</a>
-                                                <ul>
-                                                    <li><a href="blog-grid-rsb.html">Grid Right Sidebar</a></li>
-                                                    <li><a href="blog-grid-nsb.html">Grid Full Width</a></li>
-                                                    <li><a href="blog-grid-lsb.html">Grid Left Sidebar</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item-has-children"><a href="javascript:void(0);">Blog List Views</a>
-                                                <ul>
-                                                    <li><a href="blog-list-rsb.html">List Right Sidebar</a></li>
-                                                    <li><a href="blog-list-nsb.html">List Full Width</a></li>
-                                                    <li><a href="blog-list-lsb.html">List Left Sidebar</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="blog-single.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact-us.html">Contact</a></li>
-                                </ul> --}}
+
                             </nav>
                             <div class="accessNav">
                                 <div class="phoneCall">
@@ -788,116 +718,6 @@
         </section>
         <!-- Section End -->
 
-        <!-- Testimonial Section Start -->
-        {{-- <section class="testimonialSection">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h5 class="secSubTitle2">Best Quote</h5>
-                        <h2 class="secTitle">What They Say About us</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="testiMonialAuthors">
-                            <div class="tmaItem">
-                                <img src="biolab_assets/images/author/1.png" alt=""/>
-                            </div>
-                            <div class="tmaItem">
-                                <img src="biolab_assets/images/author/2.png" alt=""/>
-                            </div>
-                            <div class="tmaItem">
-                                <img src="biolab_assets/images/author/3.png" alt=""/>
-                            </div>
-                            <div class="tmaItem">
-                                <img src="biolab_assets/images/author/4.png" alt=""/>
-                            </div>
-                            <div class="tmaItem">
-                                <img src="biolab_assets/images/author/5.png" alt=""/>
-                            </div>
-                            <div class="tmaItem">
-                                <img src="biolab_assets/images/author/3.png" alt=""/>
-                            </div>
-                        </div>
-                        <div class="testiMonialContentSlider">
-                            <div class="tmcsItem">
-                                <p>
-                                    Laboflex is full and all encompassing, covering Clinical Pathology, Cytopathology,
-                                    Clinical chemistry, Genetics.
-                                </p>
-                                <h5 class="heebo">Anamika Roja</h5>
-                                <h6 class="heebo">Student</h6>
-                            </div>
-                            <div class="tmcsItem">
-                                <p>
-                                    Laboflex is full and all encompassing, covering Clinical Pathology, Cytopathology,
-                                    Clinical chemistry, Genetics.
-                                </p>
-                                <h5 class="heebo">Angela Methus</h5>
-                                <h6 class="heebo">Researcher</h6>
-                            </div>
-                            <div class="tmcsItem">
-                                <p>
-                                    Laboflex is full and all encompassing, covering Clinical Pathology, Cytopathology,
-                                    Clinical chemistry, Genetics.
-                                </p>
-                                <h5 class="heebo">Michel Yohan</h5>
-                                <h6 class="heebo">Doctor</h6>
-                            </div>
-                            <div class="tmcsItem">
-                                <p>
-                                    Laboflex is full and all encompassing, covering Clinical Pathology, Cytopathology,
-                                    Clinical chemistry, Genetics.
-                                </p>
-                                <h5 class="heebo">Joyan Roy</h5>
-                                <h6 class="heebo">Scientist</h6>
-                            </div>
-                            <div class="tmcsItem">
-                                <p>
-                                    Laboflex is full and all encompassing, covering Clinical Pathology, Cytopathology,
-                                    Clinical chemistry, Genetics.
-                                </p>
-                                <h5 class="heebo">Kopen Hill</h5>
-                                <h6 class="heebo">Virologist</h6>
-                            </div>
-                            <div class="tmcsItem">
-                                <p>
-                                    Laboflex is full and all encompassing, covering Clinical Pathology, Cytopathology,
-                                    Clinical chemistry, Genetics.
-                                </p>
-                                <h5 class="heebo">Kail Doe</h5>
-                                <h6 class="heebo">Psychologist</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
-        <!-- Testimonial Section End -->
-
-        <!-- CTA Section Start -->
-        {{-- <section class="ctaSection">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-lg-7">
-                        <div class="ctaContent">
-                            <h5 class="secSubTitle2 heebo">Achieving Efficiencies</h5>
-                            <h2 class="secTitle">
-                                Expanding Your Test Menu through Global Logistics
-                            </h2>
-                            <a href="appointment.html" class="lab_btn lightHover">Request Appointment</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-5">
-                        <div class="imgDiv">
-                            <img src="biolab_assets/images/home1/2.png" alt="Labflox"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> --}}
-        <!-- CTA Section End -->
-
         <!-- Blog Section Start -->
         <section class="blogSection">
             <div class="container">
@@ -976,31 +796,6 @@
         <a href="javascript:void(0);" id="backtotop"><i class="fa fa-angle-double-up"></i></a>
         <!-- Back To Top -->
 
-        <!-- Start Include All JS -->
-        <script src="biolab_assets/js/jquery.js"></script>
-        <script src="biolab_assets/js/bootstrap.min.js"></script>
-        <script src="biolab_assets/js/owl.carousel.min.js"></script>
-        <script src="biolab_assets/js/jquery.appear.js"></script>
-        <script src="biolab_assets/js/circle-progress.min.js"></script>
-        <script src="biolab_assets/js/slick.js"></script>
-        <script src="biolab_assets/js/lightcase.js"></script>
-
-        <!-- Slider Revolution Main Files -->
-        <script src="biolab_assets/js/jquery.themepunch.tools.min.js"></script>
-        <script src="biolab_assets/js/jquery.themepunch.revolution.min.js"></script>
-
-        <!-- Slider Revolution Extension -->
-        <script src="biolab_assets/js/extensions/revolution.extension.actions.min.js"></script>
-        <script src="biolab_assets/js/extensions/revolution.extension.carousel.min.js"></script>
-        <script src="biolab_assets/js/extensions/revolution.extension.kenburn.min.js"></script>
-        <script src="biolab_assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script src="biolab_assets/js/extensions/revolution.extension.migration.min.js"></script>
-        <script src="biolab_assets/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script src="biolab_assets/js/extensions/revolution.extension.parallax.min.js"></script>
-        <script src="biolab_assets/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script src="biolab_assets/js/extensions/revolution.extension.video.min.js"></script>
-
-        <script src="biolab_assets/js/theme.js"></script>
-        <!-- End Include All JS -->
+        @include('partials.scripts')
     </body>
 </html>
