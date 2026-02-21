@@ -2309,9 +2309,9 @@
     height: 93px;
     width: auto;
     max-width: 100%;
-    display: block;
+    display: inline-block;
     transform: scale(1.18);
-    transform-origin: left center;
+    transform-origin: center center;
 }
 .cwcInfo{
     position: relative;
