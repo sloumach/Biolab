@@ -3,7 +3,7 @@
 }
 .factSection{
     position: relative;
-    padding: 207px 0 197px;
+    padding: 207px 0 97px;
     background: url(../images/bg/2.png) no-repeat center center;
 }
 .aboutSection{
@@ -49,7 +49,7 @@
     right: 0;
     bottom: 0;
     background: url(../images/shapes/5.png) no-repeat right bottom;
-    
+
     animation: move-right-bottom 4s ease-out infinite;
 }
 @keyframes move-right-bottom {
@@ -268,7 +268,7 @@
     color: #1c1c1c;
 }
 .aboutusSection2 .listUL li:before{
-    color: #fc3329;
+    color: #7A2A84;
 }
 .aboutusSection2 .expCounter2{
     background: rgb(236,101,35);
@@ -401,4 +401,14 @@
     overflow: hidden;
     position: relative;
     padding: 120px 0;
+}
+
+.header01 .logo.logo--large {
+    overflow: visible;
+}
+.header01 .logo.logo--large img {
+    display: block;
+    transform: scale(3.0);
+    transform-origin: left center;
+    filter: brightness(1.32);
 }

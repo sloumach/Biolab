@@ -2,7 +2,7 @@
  Theme Name: Labflox
  Theme URI: https://themewar.com/html/labflox/
  Author: Themewar
- Author URI: 
+ Author URI:
  Description: Labflox - Laboratory & Research Responsive HTML Template
  Version: 1.0
  License:
@@ -12,11 +12,11 @@
 /*==================================
     [Table of contents]
 ===================================
-    01. Min Width 1200px 
+    01. Min Width 1200px
     02. Min Width 1400px
     03. 1400px To 1700px for Large Screens
     04. 1366px To 1421px for Large Screens
-    05. 1360px to 1449px 
+    05. 1360px to 1449px
     06. 1200px To 1365px for Large Screens
     07. 1200px to 1359px
     08. Max Width 1199px for Laptops Device
@@ -29,7 +29,7 @@
 */
 
 /*------------------------------------------------------------------------------------
-/ 1. Min Width 1200px 
+/ 1. Min Width 1200px
 --------------------------------------------------------------------------------------*/
 @media (min-width: 1200px){
     .serviceSection .col-xl-5 {
@@ -120,7 +120,7 @@
         background: rgba(2, 17, 63, 1);
         padding: 30px 0;
         display: none;
-        border-bottom: 3px solid #fc3329;
+        border-bottom: 3px solid #7A2A84;
         max-height: calc(100vh - 100px);
         overflow-y: auto;
     }
@@ -403,7 +403,7 @@
         left: auto;
         margin: 0 -20px;
     }
-    
+
 }
 
 /*------------------------------------------------------------------------------------
@@ -606,7 +606,7 @@
         padding: 100px 0 100px;
     }
     .testimonialSection .secTitle {
-        margin: 0 0 50px;   
+        margin: 0 0 50px;
         font-size: 36px;
         line-height: 46px;
     }
@@ -990,7 +990,7 @@
         font-size: 20px;
         line-height: 30px;
     }
-    
+
     .serviceDetailsPage {
         padding: 90px 0;
     }

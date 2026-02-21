@@ -6,44 +6,21 @@
         <meta name="keywords" content="">
         <meta name="author" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Labflox - Laboratory & Research</title>
+        <title>Biolab - Laboratory & Research</title>
 
-        <!-- Start Include All CSS -->
-        <link rel="stylesheet" href="labflox_assets/css/bootstrap.css"/>
-        <link rel="stylesheet" href="labflox_assets/css/animate.css"/>
-        <link rel="stylesheet" href="labflox_assets/css/font-awesome.css"/>
-        <link rel="stylesheet" href="labflox_assets/css/labflox-icon.css"/>
-        <link rel="stylesheet" href="labflox_assets/css/owl.theme.default.min.css"/>
-        <link rel="stylesheet" href="labflox_assets/css/owl.carousel.min.css"/>
-        <link rel="stylesheet" href="labflox_assets/css/slick.css">
-        <link rel="stylesheet" href="labflox_assets/css/lightcase.css">
-        <link rel="stylesheet" href="labflox_assets/css/preloader.css">
-
-        <!-- Revolution Slider Setting CSS -->
-        <link rel="stylesheet" href="labflox_assets/css/settings.css">
-
-        <link rel="stylesheet" href="labflox_assets/css/preset.css"/>
-        <link rel="stylesheet" href="labflox_assets/css/ignore_for_wp.css"/>
-        <link rel="stylesheet" href="labflox_assets/css/theme.css"/>
-        <link rel="stylesheet" href="labflox_assets/css/responsive.css"/>
-        <!-- End Include All CSS -->
-
-        <!-- Favicon Icon -->
-        <link rel="icon"  type="image/png" href="labflox_assets/images/favicon.png">
-        <!-- Favicon Icon -->
+        @include('partials.styles')
     </head>
     <body>
         <!-- Preloader Start -->
         <div class="preloader clock text-center">
             <div class="labfloxLoader">
                 <div class="loaderO">
+                    <span>B</span>
+                    <span>I</span>
+                    <span>O</span>
                     <span>L</span>
                     <span>A</span>
                     <span>B</span>
-                    <span>F</span>
-                    <span>L</span>
-                    <span>O</span>
-                    <span>X</span>
                 </div>
             </div>
         </div>
@@ -55,58 +32,11 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="navArea">
-                            <div class="logo">
-                                <a href="index.html"><img src="labflox_assets/images/logo.png" alt="Labflox"/></a>
+                            <div class="logo logo--large">
+                                {{-- <a href="index.html"> --}}<img src="biolab_assets/images/biolab-logo.png" alt="Labflox"/>{{-- </a> --}}
                             </div>
                             <nav class="mainMenu">
-                                <ul>
-                                    <li class="current-menu-item menu-item-has-children">
-                                        <a href="javascript:void(0);">Home</a>
-                                        <ul>
-                                            <li><a href="index.html">Home Version 01</a></li>
-                                            <li><a href="index2.html">Home Version 02</a></li>
-                                            <li><a href="index3.html">Home Version 03</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="javascript:void(0);">Pages</a>
-                                        <ul>
-                                            <li><a href="appointment.html">Appointment</a></li>
-                                            <li><a href="services.html">Services</a></li>
-                                            <li><a href="service-single.html">Service Details</a></li>
-                                            <li><a href="research.html">Research</a></li>
-                                            <li><a href="research-single.html">Research Details</a></li>
-                                            <li><a href="package.html">Package</a></li>
-                                            <li><a href="team.html">Team</a></li>
-                                            <li><a href="team-single.html">Team Details</a></li>
-                                            <li><a href="gallery.html">Gallery</a></li>
-                                            <li><a href="gallery-single.html">Gallery Details</a></li>
-                                            <li><a href="faq.html">FAQ</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li class="menu-item-has-children">
-                                        <a href="javascript:void(0);">Blog</a>
-                                        <ul>
-                                            <li class="menu-item-has-children"><a href="javascript:void(0);">Blog Grid Views</a>
-                                                <ul>
-                                                    <li><a href="blog-grid-rsb.html">Grid Right Sidebar</a></li>
-                                                    <li><a href="blog-grid-nsb.html">Grid Full Width</a></li>
-                                                    <li><a href="blog-grid-lsb.html">Grid Left Sidebar</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="menu-item-has-children"><a href="javascript:void(0);">Blog List Views</a>
-                                                <ul>
-                                                    <li><a href="blog-list-rsb.html">List Right Sidebar</a></li>
-                                                    <li><a href="blog-list-nsb.html">List Full Width</a></li>
-                                                    <li><a href="blog-list-lsb.html">List Left Sidebar</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="blog-single.html">Blog Details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="contact-us.html">Contact</a></li>
-                                </ul>
+
                             </nav>
                             <div class="accessNav">
                                 <div class="phoneCall">
@@ -130,7 +60,7 @@
                 <div id="rev_slider_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
                     <ul>
                         <li data-index="rs-3046" data-transition="random-premium" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1000"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                            <img src="labflox_assets/images/slider/1.1.jpg"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                            <img src="biolab_assets/images/slider/1.1.jpg"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                             <div class="tp-caption tp-resizeme heebo"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -158,7 +88,7 @@
                                 data-paddingleft="['21','21','21','21']"
                                 data-marginleft="['0','0','0','0']"
 
-                                style="background-color: #fc3329; letter-spacing: -.18px;"
+                                style="background-color: #7A2A84; letter-spacing: -.18px;"
                                 >Affordable Diagnostic services</div>
                             <div class="tp-caption ws_nowrap heebo"
                                 data-x="['left','left','center','center']"
@@ -206,7 +136,7 @@
                                 data-textAlign="['left','left','center','center']"
                                 data-marginleft="['0','0','0','0']"
 
-                                ><a href="#" class="lab_btn_1">Our Packages</a></div>
+                                >{{-- <a href="#" class="lab_btn_1">Our Packages</a> --}}</div>
                             <div class="tp-caption tp-resizeme"
                                 data-x="['right','right','right','right']"
                                 data-hoffset="['73','0','0','0']"
@@ -224,7 +154,7 @@
                                 data-frames='[{"delay":1400,"speed":900,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]'
 
                                 data-textAlign="['center','center','center','center']"
-                                style="background: #fc3329;"
+                                style="background: #7A2A84;"
                                 ><a href="https://www.youtube.com/embed/YneElZ2zNhY" class="videoBtn popup_video"><i class="fa fa-play"></i></a></div>
                             <div class="tp-caption tp-resizeme"
                                 data-x="['right','right','right','right']"
@@ -266,7 +196,7 @@
                                 ></div>
                         </li>
                         <li data-index="rs-3047" data-transition="random-premium" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1000"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                            <img src="labflox_assets/images/slider/1.2.jpg"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                            <img src="biolab_assets/images/slider/1.2.jpg"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                             <div class="tp-caption tp-resizeme heebo"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -294,7 +224,7 @@
                                 data-paddingleft="['21','21','21','21']"
                                 data-marginleft="['0','0','0','0']"
 
-                                style="background-color: #fc3329; letter-spacing: -.18px;"
+                                style="background-color: #7A2A84; letter-spacing: -.18px;"
                                 >Affordable Diagnostic services</div>
                             <div class="tp-caption ws_nowrap heebo"
                                 data-x="['left','left','center','center']"
@@ -342,7 +272,7 @@
                                 data-textAlign="['left','left','center','center']"
                                 data-marginleft="['0','0','0','0']"
 
-                                ><a href="#" class="lab_btn_1">Our Packages</a></div>
+                                >{{-- <a href="#" class="lab_btn_1">Our Packages</a> --}}</div>
                             <div class="tp-caption tp-resizeme"
                                 data-x="['right','right','right','right']"
                                 data-hoffset="['73','0','0','0']"
@@ -360,7 +290,7 @@
                                 data-frames='[{"delay":1400,"speed":900,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]'
 
                                 data-textAlign="['center','center','center','center']"
-                                style="background: #fc3329;"
+                                style="background: #7A2A84;"
                                 ><a href="https://www.youtube.com/embed/wBomUBY62a4" class="videoBtn popup_video"><i class="fa fa-play"></i></a></div>
                             <div class="tp-caption tp-resizeme"
                                 data-x="['right','right','right','right']"
@@ -402,7 +332,7 @@
                                 ></div>
                         </li>
                         <li data-index="rs-3048" data-transition="random-premium" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1000"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                            <img src="labflox_assets/images/slider/1.3.jpg"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                            <img src="biolab_assets/images/slider/1.3.jpg"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                             <div class="tp-caption tp-resizeme heebo"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -430,7 +360,7 @@
                                 data-paddingleft="['21','21','21','21']"
                                 data-marginleft="['0','0','0','0']"
 
-                                style="background-color: #fc3329; letter-spacing: -.18px;"
+                                style="background-color: #7A2A84; letter-spacing: -.18px;"
                                 >Affordable Diagnostic services</div>
                             <div class="tp-caption ws_nowrap heebo"
                                 data-x="['left','left','center','center']"
@@ -478,7 +408,7 @@
                                 data-textAlign="['left','left','center','center']"
                                 data-marginleft="['0','0','0','0']"
 
-                                ><a href="#" class="lab_btn_1">Our Packages</a></div>
+                                >{{-- <a href="#" class="lab_btn_1">Our Packages</a> --}}</div>
                             <div class="tp-caption tp-resizeme"
                                 data-x="['right','right','right','right']"
                                 data-hoffset="['73','0','0','0']"
@@ -496,7 +426,7 @@
                                 data-frames='[{"delay":1400,"speed":900,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]'
 
                                 data-textAlign="['center','center','center','center']"
-                                style="background: #fc3329;"
+                                style="background: #7A2A84;"
                                 ><a href="https://www.youtube.com/embed/wBomUBY62a4" class="videoBtn popup_video"><i class="fa fa-play"></i></a></div>
                             <div class="tp-caption tp-resizeme"
                                 data-x="['right','right','right','right']"
@@ -551,7 +481,7 @@
                         <div class="serviceLeft">
                             <h2>Largest provider of specialty laboratory testing services</h2>
                             <p>Our qualified and ardent team of doctors and <br> technologists provide strong support Interactively coordinate <br> proactive e-commerce via process-centric outside the box.</p>
-                            <img src="labflox_assets/images/signature.png" alt="Mark Anthony"/>
+                            <img src="biolab_assets/images/signature.png" alt="Mark Anthony"/>
                             <h5>Mark Anthony &nbsp;&nbsp;/&nbsp;&nbsp; <span>Director</span></h5>
                         </div>
                     </div>
@@ -560,7 +490,7 @@
                             <h2>Our Services</h2>
                             <div class="serviceSlider owl-carousel">
                                 <div class="singleService01">
-                                    <img src="labflox_assets/images/services/1.jpg" alt=""/>
+                                    <img src="biolab_assets/images/services/1.jpg" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-GA9M8J01"></i>
                                         <h3><a href="service-single.html">Laboratory  Service</a></h3>
@@ -570,7 +500,7 @@
                                     </div>
                                 </div>
                                 <div class="singleService01">
-                                    <img src="labflox_assets/images/services/2.jpg" alt=""/>
+                                    <img src="biolab_assets/images/services/2.jpg" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-Yk7aBo01"></i>
                                         <h3><a href="service-single.html">Medicine Research</a></h3>
@@ -580,7 +510,7 @@
                                     </div>
                                 </div>
                                 <div class="singleService01">
-                                    <img src="labflox_assets/images/services/3.jpg" alt=""/>
+                                    <img src="biolab_assets/images/services/3.jpg" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-MjY3z001"></i>
                                         <h3><a href="service-single.html">Clinical Research</a></h3>
@@ -590,7 +520,7 @@
                                     </div>
                                 </div>
                                 <div class="singleService01">
-                                    <img src="labflox_assets/images/services/1.jpg" alt=""/>
+                                    <img src="biolab_assets/images/services/1.jpg" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-Yk7aBo01"></i>
                                         <h3><a href="service-single.html">Laboratory  Service</a></h3>
@@ -682,7 +612,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="aboutImg text-right">
-                            <img src="labflox_assets/images/home1/1.jpg" alt=""/>
+                            <img src="biolab_assets/images/home1/1.jpg" alt=""/>
                             <div class="expCounter">
                                 <span class="counters" data-count="25" data-suffix="" data-format="plain">05</span>
                                 <span>Years of Experience</span>
@@ -763,7 +693,7 @@
                                          data-values="0.9"
                                          data-sizes="103"
                                          data-thicknesss="4"
-                                         data-fills="#fc3329"
+                                         data-fills="#7A2A84"
                                          data-emptyfills="#ebebeb"
                                          data-linecaps="square"
                                          ><strong></strong></div>
@@ -774,7 +704,7 @@
                                          data-values="0.8"
                                          data-sizes="103"
                                          data-thicknesss="4"
-                                         data-fills="#fc3329"
+                                         data-fills="#7A2A84"
                                          data-emptyfills="#ebebeb"
                                          data-linecaps="square"
                                          ><strong></strong></div>
@@ -787,116 +717,6 @@
             </div>
         </section>
         <!-- Section End -->
-
-        <!-- Testimonial Section Start -->
-        <section class="testimonialSection">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h5 class="secSubTitle2">Best Quote</h5>
-                        <h2 class="secTitle">What They Say About us</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="testiMonialAuthors">
-                            <div class="tmaItem">
-                                <img src="labflox_assets/images/author/1.png" alt=""/>
-                            </div>
-                            <div class="tmaItem">
-                                <img src="labflox_assets/images/author/2.png" alt=""/>
-                            </div>
-                            <div class="tmaItem">
-                                <img src="labflox_assets/images/author/3.png" alt=""/>
-                            </div>
-                            <div class="tmaItem">
-                                <img src="labflox_assets/images/author/4.png" alt=""/>
-                            </div>
-                            <div class="tmaItem">
-                                <img src="labflox_assets/images/author/5.png" alt=""/>
-                            </div>
-                            <div class="tmaItem">
-                                <img src="labflox_assets/images/author/3.png" alt=""/>
-                            </div>
-                        </div>
-                        <div class="testiMonialContentSlider">
-                            <div class="tmcsItem">
-                                <p>
-                                    Laboflex is full and all encompassing, covering Clinical Pathology, Cytopathology,
-                                    Clinical chemistry, Genetics.
-                                </p>
-                                <h5 class="heebo">Anamika Roja</h5>
-                                <h6 class="heebo">Student</h6>
-                            </div>
-                            <div class="tmcsItem">
-                                <p>
-                                    Laboflex is full and all encompassing, covering Clinical Pathology, Cytopathology,
-                                    Clinical chemistry, Genetics.
-                                </p>
-                                <h5 class="heebo">Angela Methus</h5>
-                                <h6 class="heebo">Researcher</h6>
-                            </div>
-                            <div class="tmcsItem">
-                                <p>
-                                    Laboflex is full and all encompassing, covering Clinical Pathology, Cytopathology,
-                                    Clinical chemistry, Genetics.
-                                </p>
-                                <h5 class="heebo">Michel Yohan</h5>
-                                <h6 class="heebo">Doctor</h6>
-                            </div>
-                            <div class="tmcsItem">
-                                <p>
-                                    Laboflex is full and all encompassing, covering Clinical Pathology, Cytopathology,
-                                    Clinical chemistry, Genetics.
-                                </p>
-                                <h5 class="heebo">Joyan Roy</h5>
-                                <h6 class="heebo">Scientist</h6>
-                            </div>
-                            <div class="tmcsItem">
-                                <p>
-                                    Laboflex is full and all encompassing, covering Clinical Pathology, Cytopathology,
-                                    Clinical chemistry, Genetics.
-                                </p>
-                                <h5 class="heebo">Kopen Hill</h5>
-                                <h6 class="heebo">Virologist</h6>
-                            </div>
-                            <div class="tmcsItem">
-                                <p>
-                                    Laboflex is full and all encompassing, covering Clinical Pathology, Cytopathology,
-                                    Clinical chemistry, Genetics.
-                                </p>
-                                <h5 class="heebo">Kail Doe</h5>
-                                <h6 class="heebo">Psychologist</h6>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Testimonial Section End -->
-
-        <!-- CTA Section Start -->
-        <section class="ctaSection">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-lg-7">
-                        <div class="ctaContent">
-                            <h5 class="secSubTitle2 heebo">Achieving Efficiencies</h5>
-                            <h2 class="secTitle">
-                                Expanding Your Test Menu through Global Logistics
-                            </h2>
-                            <a href="appointment.html" class="lab_btn lightHover">Request Appointment</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-5">
-                        <div class="imgDiv">
-                            <img src="labflox_assets/images/home1/2.png" alt="Labflox"/>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- CTA Section End -->
 
         <!-- Blog Section Start -->
         <section class="blogSection">
@@ -911,7 +731,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="newsItem">
                             <div class="niThumb">
-                                <img src="labflox_assets/images/news/1.png" alt="Labflox"/>
+                                <img src="biolab_assets/images/news/1.png" alt="Labflox"/>
                             </div>
                             <div class="niDetails">
                                 <div class="niDate roboto"><span>25</span><span>Oct</span></div>
@@ -930,7 +750,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="newsItem">
                             <div class="niThumb">
-                                <img src="labflox_assets/images/news/2.png" alt="Labflox"/>
+                                <img src="biolab_assets/images/news/2.png" alt="Labflox"/>
                             </div>
                             <div class="niDetails">
                                 <div class="niDate roboto"><span>27</span><span>Oct</span></div>
@@ -949,7 +769,7 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="newsItem">
                             <div class="niThumb">
-                                <img src="labflox_assets/images/news/3.png" alt="Labflox"/>
+                                <img src="biolab_assets/images/news/3.png" alt="Labflox"/>
                             </div>
                             <div class="niDetails">
                                 <div class="niDate roboto"><span>28</span><span>Oct</span></div>
@@ -970,143 +790,12 @@
         </section>
         <!-- Blog Section End -->
 
-        <!-- Section Start -->
-        <footer class="footer01">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="subscribeForm">
-                            <div class="row">
-                                <div class="col-lg-5">
-                                    <div class="sfLeft">
-                                        <!--<i class="laf-CaWRfT01"></i>-->
-                                        <img src="labflox_assets/images/icons/1.png" alt=""/>
-                                        <h3>
-                                            Get latest updates Subscribe
-                                            to Our Newsletter
-                                        </h3>
-                                    </div>
-                                </div>
-                                <div class="col-lg-7">
-                                    <form method="post" action="#">
-                                        <input type="email" name="email" placeholder="Your Mail Address"/>
-                                        <button type="submit">Subscribe Now</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row widgetRow">
-                    <div class="col-md-6 col-lg-3">
-                        <aside class="widget">
-                            <div class="contactWidtetContent">
-                                <div class="footerLogo">
-                                    <a href="index.html"><img src="labflox_assets/images/logo.png" alt="LabFlox"/></a>
-                                </div>
-                                <div class="cwcInfo">
-                                    <i class="laf-y4LP01"></i>
-                                    +91 458 654 528
-                                </div>
-                                <div class="cwcInfo">
-                                    <i class="laf-BqBcxz01"></i>
-                                    <a href="javascript:void(0);">info@example.com</a>
-                                </div>
-                                <div class="cwcInfo">
-                                    <i class="laf-A8AIr201"></i>
-                                    60 East 65th Street, NY
-                                </div>
-                            </div>
-                        </aside>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <aside class="widget">
-                            <h3 class="widgetTitle">Our Pathology</h3>
-                            <ul>
-                                <li><a href="javascript:void(0);">Molecular Diagnostics</a></li>
-                                <li><a href="javascript:void(0);">Molecular Hematology</a></li>
-                                <li><a href="javascript:void(0);">Microbiology</a></li>
-                                <li><a href="javascript:void(0);">Transfusion Medicine</a></li>
-                            </ul>
-                        </aside>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <aside class="widget">
-                            <h3 class="widgetTitle">Services</h3>
-                            <ul>
-                                <li><a href="javascript:void(0);">Complete Blood Count</a></li>
-                                <li><a href="javascript:void(0);">Comprehensive Metabolic Panel</a></li>
-                                <li><a href="javascript:void(0);">Cholesterol / Lipid Levels</a></li>
-                                <li><a href="javascript:void(0);">Liver Function Blood Test</a></li>
-                            </ul>
-                        </aside>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <aside class="widget">
-                            <h3 class="widgetTitle">Preparation tips</h3>
-                            <ul>
-                                <li><a href="javascript:void(0);">Before Your Blood Test</a></li>
-                                <li><a href="javascript:void(0);">What to Expect During the Draw</a></li>
-                                <li><a href="javascript:void(0);">Microbiology</a></li>
-                                <li><a href="javascript:void(0);">Transfusion Medicine</a></li>
-                            </ul>
-                        </aside>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="copyrightRow">
-                            <div class="row">
-                                <div class="col-md-6 col-lg-6">
-                                    <div class="siteInfo">© 2021 Labflox All rights reserved.</div>
-                                </div>
-                                <div class="col-md-6 col-lg-6">
-                                    <div class="siteSocial">
-                                        <a href="javascript:void(0);"><i class="fa fa-facebook-square"></i></a>
-                                        <a href="javascript:void(0);"><i class="fa fa-twitter"></i></a>
-                                        <a href="javascript:void(0);"><i class="fa fa-pinterest"></i></a>
-                                        <a href="javascript:void(0);"><i class="fa fa-github"></i></a>
-                                        <a href="javascript:void(0);"><i class="fa fa-linkedin"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- Section End -->
+        @include('footer')
 
         <!-- Back To Top -->
         <a href="javascript:void(0);" id="backtotop"><i class="fa fa-angle-double-up"></i></a>
         <!-- Back To Top -->
 
-        <!-- Start Include All JS -->
-        <script src="labflox_assets/js/jquery.js"></script>
-        <script src="labflox_assets/js/bootstrap.min.js"></script>
-        <script src="labflox_assets/js/owl.carousel.min.js"></script>
-        <script src="labflox_assets/js/jquery.appear.js"></script>
-        <script src="labflox_assets/js/circle-progress.min.js"></script>
-        <script src="labflox_assets/js/slick.js"></script>
-        <script src="labflox_assets/js/lightcase.js"></script>
-        <script src="labflox_assets/js/litepicker.js"></script>
-
-        <!-- Slider Revolution Main Files -->
-        <script src="labflox_assets/js/jquery.themepunch.tools.min.js"></script>
-        <script src="labflox_assets/js/jquery.themepunch.revolution.min.js"></script>
-
-        <!-- Slider Revolution Extension -->
-        <script src="labflox_assets/js/extensions/revolution.extension.actions.min.js"></script>
-        <script src="labflox_assets/js/extensions/revolution.extension.carousel.min.js"></script>
-        <script src="labflox_assets/js/extensions/revolution.extension.kenburn.min.js"></script>
-        <script src="labflox_assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script src="labflox_assets/js/extensions/revolution.extension.migration.min.js"></script>
-        <script src="labflox_assets/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script src="labflox_assets/js/extensions/revolution.extension.parallax.min.js"></script>
-        <script src="labflox_assets/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script src="labflox_assets/js/extensions/revolution.extension.video.min.js"></script>
-
-        <script src="labflox_assets/js/theme.js"></script>
-        <!-- End Include All JS -->
+        @include('partials.scripts')
     </body>
 </html>

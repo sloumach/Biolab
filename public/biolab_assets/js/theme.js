@@ -627,9 +627,12 @@
     }
 
     // Date Picker
-    const picker = new Litepicker({ 
-        element: document.getElementById('litepicker'),
-    });
+    var litepickerElement = document.getElementById('litepicker');
+    if (litepickerElement && typeof Litepicker !== 'undefined') {
+        new Litepicker({
+            element: litepickerElement
+        });
+    }
 
 
      /*----------------------------------------------------------
