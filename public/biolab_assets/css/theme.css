@@ -2311,6 +2311,7 @@
     max-width: 100%;
     display: inline-block;
     transform: scale(1.18);
+    margin-left: 10%;
     transform-origin: center center;
 }
 .cwcInfo{
