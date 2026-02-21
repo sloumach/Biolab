@@ -6,6 +6,7 @@
 <script src="biolab_assets/js/circle-progress.min.js"></script>
 <script src="biolab_assets/js/slick.js"></script>
 <script src="biolab_assets/js/lightcase.js"></script>
+<script src="biolab_assets/js/litepicker.js"></script>
 
 <!-- Slider Revolution Main Files -->
 <script src="biolab_assets/js/jquery.themepunch.tools.min.js"></script>

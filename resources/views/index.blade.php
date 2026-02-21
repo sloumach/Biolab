@@ -44,7 +44,7 @@
                                     <span>24/7 Emergency Phone</span>
                                     <h6>+36 55 540 069</h6>
                                 </div>
-                                <a href="appointment.html" class="lab_btn lightHover requestBTN"><span><i class="fa fa-calendar-plus-o"></i>Request Appointment</span></a>
+                                <a href="{{ route('appointment') }}" class="lab_btn lightHover requestBTN"><span><i class="fa fa-calendar-plus-o"></i>Request Appointment</span></a>
                                 <a href="javascript:void(0);" class="menuBtn"><span><i class="fa fa-bars"></i>Menu</span></a>
                             </div>
                         </div>
@@ -493,7 +493,7 @@
                                     <img src="biolab_assets/images/services/1.jpg" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-GA9M8J01"></i>
-                                        <h3><a href="service-single.html">Laboratory  Service</a></h3>
+                                        <h3><a>Laboratory  Service</a></h3>
                                         <p>
                                             Our qualified and ardent team of technologists provide
                                         </p>
@@ -503,7 +503,7 @@
                                     <img src="biolab_assets/images/services/2.jpg" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-Yk7aBo01"></i>
-                                        <h3><a href="service-single.html">Medicine Research</a></h3>
+                                        <h3><a>Medicine Research</a></h3>
                                         <p>
                                             Our qualified and ardent team of technologists provide
                                         </p>
@@ -513,7 +513,7 @@
                                     <img src="biolab_assets/images/services/3.jpg" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-MjY3z001"></i>
-                                        <h3><a href="service-single.html">Clinical Research</a></h3>
+                                        <h3><a>Clinical Research</a></h3>
                                         <p>
                                             Our qualified and ardent team of technologists provide
                                         </p>
@@ -523,7 +523,7 @@
                                     <img src="biolab_assets/images/services/1.jpg" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-Yk7aBo01"></i>
-                                        <h3><a href="service-single.html">Laboratory  Service</a></h3>
+                                        <h3><a>Laboratory  Service</a></h3>
                                         <p>
                                             Our qualified and ardent team of technologists provide
                                         </p>
@@ -607,7 +607,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <a href="about.html" class="lab_btn darkHover">Read More</a>
+                            <a href="{{ route('about') }}" class="lab_btn darkHover">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-6">
