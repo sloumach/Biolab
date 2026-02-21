@@ -2306,9 +2306,12 @@
     position: relative;
 }
 .footerLogo img{
-    height: 104px;
+    height: 93px;
     width: auto;
     max-width: 100%;
+    display: block;
+    transform: scale(1.18);
+    transform-origin: left center;
 }
 .cwcInfo{
     position: relative;
