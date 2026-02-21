@@ -88,7 +88,7 @@
                                 data-paddingleft="['21','21','21','21']"
                                 data-marginleft="['0','0','0','0']"
 
-                                style="background-color: #fc3329; letter-spacing: -.18px;"
+                                style="background-color: #7A2A84; letter-spacing: -.18px;"
                                 >Affordable Diagnostic services</div>
                             <div class="tp-caption ws_nowrap heebo"
                                 data-x="['left','left','center','center']"
@@ -154,7 +154,7 @@
                                 data-frames='[{"delay":1400,"speed":900,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]'
 
                                 data-textAlign="['center','center','center','center']"
-                                style="background: #fc3329;"
+                                style="background: #7A2A84;"
                                 ><a href="https://www.youtube.com/embed/YneElZ2zNhY" class="videoBtn popup_video"><i class="fa fa-play"></i></a></div>
                             <div class="tp-caption tp-resizeme"
                                 data-x="['right','right','right','right']"
@@ -224,7 +224,7 @@
                                 data-paddingleft="['21','21','21','21']"
                                 data-marginleft="['0','0','0','0']"
 
-                                style="background-color: #fc3329; letter-spacing: -.18px;"
+                                style="background-color: #7A2A84; letter-spacing: -.18px;"
                                 >Affordable Diagnostic services</div>
                             <div class="tp-caption ws_nowrap heebo"
                                 data-x="['left','left','center','center']"
@@ -290,7 +290,7 @@
                                 data-frames='[{"delay":1400,"speed":900,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]'
 
                                 data-textAlign="['center','center','center','center']"
-                                style="background: #fc3329;"
+                                style="background: #7A2A84;"
                                 ><a href="https://www.youtube.com/embed/wBomUBY62a4" class="videoBtn popup_video"><i class="fa fa-play"></i></a></div>
                             <div class="tp-caption tp-resizeme"
                                 data-x="['right','right','right','right']"
@@ -360,7 +360,7 @@
                                 data-paddingleft="['21','21','21','21']"
                                 data-marginleft="['0','0','0','0']"
 
-                                style="background-color: #fc3329; letter-spacing: -.18px;"
+                                style="background-color: #7A2A84; letter-spacing: -.18px;"
                                 >Affordable Diagnostic services</div>
                             <div class="tp-caption ws_nowrap heebo"
                                 data-x="['left','left','center','center']"
@@ -426,7 +426,7 @@
                                 data-frames='[{"delay":1400,"speed":900,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"power3.inOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"power3.inOut"}]'
 
                                 data-textAlign="['center','center','center','center']"
-                                style="background: #fc3329;"
+                                style="background: #7A2A84;"
                                 ><a href="https://www.youtube.com/embed/wBomUBY62a4" class="videoBtn popup_video"><i class="fa fa-play"></i></a></div>
                             <div class="tp-caption tp-resizeme"
                                 data-x="['right','right','right','right']"
@@ -693,7 +693,7 @@
                                          data-values="0.9"
                                          data-sizes="103"
                                          data-thicknesss="4"
-                                         data-fills="#fc3329"
+                                         data-fills="#7A2A84"
                                          data-emptyfills="#ebebeb"
                                          data-linecaps="square"
                                          ><strong></strong></div>
@@ -704,7 +704,7 @@
                                          data-values="0.8"
                                          data-sizes="103"
                                          data-thicknesss="4"
-                                         data-fills="#fc3329"
+                                         data-fills="#7A2A84"
                                          data-emptyfills="#ebebeb"
                                          data-linecaps="square"
                                          ><strong></strong></div>

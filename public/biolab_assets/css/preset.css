@@ -76,7 +76,7 @@ button, input[type="submit"]{
 }
 a:hover{
     text-decoration: none;
-    color: #fc3329;
+    color: #7A2A84;
 }
 a:focus, input:focus, select:focus, button:focus, textarea:focus{
     outline: 0;
@@ -89,14 +89,14 @@ a:focus, input:focus, select:focus, button:focus, textarea:focus{
     align-items: center;
     height: 50px;
     line-height: 50px;
-    background: #fc3329;
+    background: #7A2A84;
     color: #FFF;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: -.35px;
     padding: 0 24px;
     overflow: hidden;
-    
+
     transform: perspective(1px) translateZ(0);
     -moz-transform: perspective(1px) translateZ(0);
     -webkit-transform: perspective(1px) translateZ(0);
@@ -141,7 +141,7 @@ a:focus, input:focus, select:focus, button:focus, textarea:focus{
     color: #fff;
 }
 .lab_btn.lightHover:hover{
-    color: #fc3329;
+    color: #7A2A84;
 }
 .lab_btn:hover:before{
     -webkit-transform: scaleX(1);
@@ -165,7 +165,7 @@ a:focus, input:focus, select:focus, button:focus, textarea:focus{
     min-width: 194px;
     overflow: hidden;
     position: relative;
-    
+
     transform: perspective(1px) translateZ(0);
     -moz-transform: perspective(1px) translateZ(0);
     -webkit-transform: perspective(1px) translateZ(0);
@@ -215,7 +215,7 @@ a:focus, input:focus, select:focus, button:focus, textarea:focus{
     padding: 0 24px;
     overflow: hidden;
     position: relative;
-    
+
     transform: perspective(1px) translateZ(0);
     -moz-transform: perspective(1px) translateZ(0);
     -webkit-transform: perspective(1px) translateZ(0);
@@ -230,7 +230,7 @@ a:focus, input:focus, select:focus, button:focus, textarea:focus{
     bottom: 0;
     background: rgb(58,123,213);
     background: linear-gradient(90deg, rgba(58,123,213,1) 0%, rgba(0,210,255,1) 100%);
-    
+
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
@@ -268,7 +268,7 @@ a:focus, input:focus, select:focus, button:focus, textarea:focus{
     border-radius: 2px;
     overflow: hidden;
     position: relative;
-    
+
     transform: perspective(1px) translateZ(0);
     -moz-transform: perspective(1px) translateZ(0);
     -webkit-transform: perspective(1px) translateZ(0);
@@ -287,7 +287,7 @@ a:focus, input:focus, select:focus, button:focus, textarea:focus{
     background: rgb(255,200,55,0);
     background: linear-gradient(90deg, rgba(255,200,55,1) 0%, rgba(249,121,0,1) 100%);
     border-radius: 2px;
-    
+
     -webkit-transform: scaleX(0);
     transform: scaleX(0);
     -webkit-transform-origin: 0 50%;
@@ -331,7 +331,7 @@ a:focus, input:focus, select:focus, button:focus, textarea:focus{
 /  4. Section Typography
 /------------------------------------------------------*/
 .secSubTitle{
-    color: #fc3329;
+    color: #7A2A84;
     font-weight: 500;
     line-height: 1;
     font-size: 18px;
@@ -344,7 +344,7 @@ a:focus, input:focus, select:focus, button:focus, textarea:focus{
     content: '';
     width: 40px;
     height: 1px;
-    background: #fc3329;
+    background: #7A2A84;
     position: absolute;
     left: 0;
     top: 0;
@@ -357,7 +357,7 @@ a:focus, input:focus, select:focus, button:focus, textarea:focus{
     letter-spacing: 0;
 }
 .secSubTitle2{
-    color: #fc3329;
+    color: #7A2A84;
     font-weight: 500;
     line-height: 1;
     font-size: 18px;
