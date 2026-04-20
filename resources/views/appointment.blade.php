@@ -62,7 +62,7 @@
                             <h5>Appointment</h5>
                             <h2>An order for lab work from your provider is required.</h2>
                             <div class="pageBreadCum">
-                                <a href="index.html">Home</a>
+                                <a href="{{ route('home') }}">Home</a>
                                 <i class="fa fa-angle-right"></i>
                                 <span>Appointment</span>
                             </div>
@@ -99,28 +99,36 @@
                     <div class="col-md-6">
                         <div class="appointmentForm">
                             <h2>Fill The Form</h2>
-                            <form method="post" action="#" id="contact_form">
-                                <input type="text" name="ap_name" placeholder="Patient Name *" class="required reqError"/>
-                                <input type="email" name="ap_mail" placeholder="Your Mail *" class="required reqError"/>
-                                <input type="text" name="ap_name" placeholder="Your Phone *" class="required reqError"/>
+                            <form method="post" action="{{ route('appointment.store') }}" id="appointment_form">
+                                @csrf
+                                <input type="text" name="patient_name" value="{{ old('patient_name') }}" placeholder="Patient Name *" class="required @error('patient_name') reqError @enderror"/>
+                                <input type="email" name="email" value="{{ old('email') }}" placeholder="Your Mail *" class="required @error('email') reqError @enderror"/>
+                                <input type="text" name="phone" value="{{ old('phone') }}" placeholder="Your Phone *" class="required @error('phone') reqError @enderror"/>
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <select name="ap_gender">
+                                        <select name="gender" class="@error('gender') reqError @enderror">
                                             <option value="">Select Gender</option>
-                                            <option value="Male">Male</option>
-                                            <option value="Female">Female</option>
-                                            <option value="Other">Other</option>
+                                            <option value="Male" @selected(old('gender') === 'Male')>Male</option>
+                                            <option value="Female" @selected(old('gender') === 'Female')>Female</option>
+                                            <option value="Other" @selected(old('gender') === 'Other')>Other</option>
                                         </select>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="date_picker">
-                                            <input type="text" name="ap_date" placeholder="dd/mm/yyyy" id="litepicker" class="required reqError"/>
+                                            <input type="text" name="appointment_date" value="{{ old('appointment_date') }}" placeholder="yyyy-mm-dd" id="litepicker" class="required @error('appointment_date') reqError @enderror"/>
                                             <label for="litepicker"><i class="fa fa-calendar" aria-hidden="true"></i></label>
                                         </div>
                                     </div>
                                 </div>
                                 <button type="submit"><span>Request Appointment</span></button>
-                                <div class="alert con_message"></div>
+                                @if (session('success'))
+                                    <div class="alert con_message alert-success" style="display: block;">{{ session('success') }}</div>
+                                @endif
+                                @if ($errors->any())
+                                    <div class="alert con_message alert-warning" style="display: block;">
+                                        Please fix the highlighted fields and submit again.
+                                    </div>
+                                @endif
                             </form>
                         </div>
                     </div>
@@ -139,7 +147,7 @@
                             <h2 class="secTitle">
                                 Expanding Your Test Menu through Global Logistics
                             </h2>
-                            <a href="appointment.html" class="lab_btn lightHover">Request Appointment</a>
+                            <a href="{{ route('appointment') }}" class="lab_btn lightHover">Request Appointment</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-5">

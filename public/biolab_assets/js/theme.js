@@ -630,7 +630,8 @@
     var litepickerElement = document.getElementById('litepicker');
     if (litepickerElement && typeof Litepicker !== 'undefined') {
         new Litepicker({
-            element: litepickerElement
+            element: litepickerElement,
+            format: 'YYYY-MM-DD'
         });
     }
 
