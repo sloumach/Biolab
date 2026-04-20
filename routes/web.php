@@ -9,3 +9,4 @@ Route::post('/appointment', [AppointmentController::class, 'store'])
     ->middleware('throttle:appointments')
     ->name('appointment.store');
 Route::view('/about', 'about')->name('about');
+Route::view('/blog-single', 'blog-single')->name('blog.single');
