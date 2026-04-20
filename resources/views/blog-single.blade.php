@@ -6,7 +6,7 @@
         <meta name="keywords" content="HTML, CSS, JavaScript, jQuery, Animation, Bootstrap, Font Awesome, Revolution Slider, Labflox, Portfolio">
         <meta name="author" content="Themewar">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Biolab - Blog Details</title>
+        <title>{{ $blog->title }} - Biolab</title>
 
         @include('partials.styles')
     </head>
@@ -59,8 +59,8 @@
                 <div class="row">
                     <div class="col-md-10 col-lg-7 col-xl-6">
                         <div class="pageBannerContent">
-                            <h5>Latest Blog</h5>
-                            <h2>19 Ways to Balance Your Hormones Naturally</h2>
+                            <h5>{{ $blog->category }}</h5>
+                            <h2>{{ $blog->title }}</h2>
                             <div class="pageBreadCum">
                                 <a href="{{ route('home') }}">Home</a>
                                 <i class="fa fa-angle-right"></i>
@@ -79,40 +79,28 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="blogDetailsThumb">
-                            <img src="biolab_assets/images/news/11.jpg" alt="Labflox"/>
+                            <img src="{{ $blog->image_path ? asset('storage/'.$blog->image_path) : asset('biolab_assets/images/news/11.jpg') }}" alt="{{ $blog->title }}"/>
                         </div>
                         <div class="newsContentArea">
-                            <div class="niDate roboto"><span>25</span><span>Oct</span></div>
-                            <div class="niMeta">
-                                <span><i class="fa fa-tags"></i><a href="javascript:void(0);">Research</a></span>
-                                <span><i class="fa fa-user"></i><a href="javascript:void(0);">Admin</a></span>
-                                <span><i class="fa fa-comment"></i><a href="javascript:void(0);">05 Comments</a></span>
+                            <div class="niDate roboto">
+                                <span>{{ $blog->created_at->format('d') }}</span>
+                                <span>{{ $blog->created_at->format('M') }}</span>
                             </div>
-                            <h2 class="post-title">19 Ways to Balance Your Hormones Naturally</h2>
+                            <div class="niMeta">
+                                <span><i class="fa fa-tags"></i><a href="javascript:void(0);">{{ $blog->category }}</a></span>
+                                <span><i class="fa fa-user"></i><a href="javascript:void(0);">Admin</a></span>
+                                <span><i class="fa fa-comment"></i><a href="javascript:void(0);">0 Comments</a></span>
+                            </div>
+                            <h2 class="post-title">{{ $blog->title }}</h2>
                             <div class="newsContent clearfix">
-                                <p class="mb44">
-                                    Rigorously reported, peer reviewed and immediately available without restrictions, promoting the widest readership and impact possible 
-                                    We encourage you to consider the scope of each journal before submission, as journals are editorially independent and specialized 
-                                    in their publication criteria and breadth of content.
-                                </p>
-                                <blockquote class="wp-block-quote">
-                                    <p>We encourage you to consider the scope of each journal before submission, as journals are editorially independent and specialized in their publication criteria and breadth of content.</p>
-                                    <cite><strong>– Michal Smart</strong></cite>
-                                </blockquote>
-                                <h3>Why This?</h3>
-                                <p>
-                                    Promoting the widest readership and impact possible We encourage you to consider the scope of each journal before submission, as 
-                                    journals are editorially independent and specialized in their publication criteria and breadth of content.
-                                </p>
+                                {!! nl2br(e($blog->content)) !!}
                             </div>
                             <div class="newsFooter">
                                 <div class="row">
                                     <div class="col-lg-8">
                                         <div class="tagsArea">
                                             <span>Tags:</span>
-                                            <a href="#">Test</a>
-                                            <a href="#">Health</a>
-                                            <a href="#">Courses</a>
+                                            <a href="#">{{ $blog->category }}</a>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 clearfix">
@@ -120,64 +108,6 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="commentListArea">
-                            <h3>Comments (04)</h3>
-                            <ol class="comment-list">
-                                <li>
-                                    <article class="single_comment clearfix ">
-                                        <img src="biolab_assets/images/author/14.jpg" alt="Amy Burton">
-                                        <h4 class="cm_subject">Good Tours</h4>
-                                        <div class="sc_content">
-                                            <p>Ed id interdum urna. Nam ac elit a ante commodo tristique. Duis lacus urna, condimentum a vehicula a, hendrerit ac nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </div>
-                                        <span class="cm_date">June 6, 2021 <span>- BY</span>  Milon Non</span>
-                                        <a class="comment-reply-link" href="javascript:void(0);"><i class="fa fa-reply"></i>Reply</a>
-                                    </article>
-                                    <ol class="children">
-                                        <li>
-                                            <article class="single_comment clearfix ">
-                                                <img src="biolab_assets/images/author/14.jpg" alt="Amy Burton">
-                                                <h4 class="cm_subject">So Good</h4>
-                                                <div class="sc_content">
-                                                    <p>Nam ac elit a ante commodo tristique. Duis lacus urna, condimentum a vehicula a, hendrerit ac nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                </div>
-                                                <span class="cm_date">June 6, 2021 <span>- BY</span>  Milon Non</span>
-                                                <a class="comment-reply-link" href="javascript:void(0);"><i class="fa fa-reply"></i>Reply</a>
-                                            </article>
-                                        </li>
-                                    </ol>
-                                </li>
-                                <li>
-                                    <article class="single_comment clearfix ">
-                                        <img src="biolab_assets/images/author/14.jpg" alt="Amy Burton">
-                                        <h4 class="cm_subject">Good Tours</h4>
-                                        <div class="sc_content">
-                                            <p>Ed id interdum urna. Nam ac elit a ante commodo tristique. Duis lacus urna, condimentum a vehicula a, hendrerit ac nisi Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        </div>
-                                        <span class="cm_date">June 6, 2021 <span>- BY</span>  Milon Non</span>
-                                        <a class="comment-reply-link" href="javascript:void(0);"><i class="fa fa-reply"></i>Reply</a>
-                                    </article>
-                                </li>
-                            </ol>
-                        </div>
-                        <div class="commentArea">
-                            <h3>Post Comment</h3>
-                            <p>Your email address will not be published. Required fields are marked *</p>
-                            <form method="post" action="#" class="commentForm row">
-                                <div class="col-lg-6">
-                                    <input type="text" name="com_name" placeholder="Enter Name"/>
-                                </div>
-                                <div class="col-lg-6">
-                                    <input type="email" name="com_email" placeholder="Email Address"/>
-                                </div>
-                                <div class="col-lg-12">
-                                    <textarea name="comment" placeholder="Post Comment"></textarea>
-                                </div>
-                                <div class="col-lg-12">
-                                    <button type="submit" class="lab_btn darkHover"><span>Post Comment</span></button>
-                                </div>
-                            </form>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -191,42 +121,33 @@
                             <aside class="widget">
                                 <h3 class="widgetTitle">Latest Post</h3>
                                 <div class="latestPost">
-                                    <div class="lpSingle">
-                                        <img src="biolab_assets/images/news/8.jpg" alt="Labflox"/>
-                                        <h3><a href="{{ route('blog.single') }}">19 Ways to Balance Your Hormones Naturally</a></h3>
-                                        <span>July 09, 2021</span>
-                                    </div>
-                                    <div class="lpSingle">
-                                        <img src="biolab_assets/images/news/9.jpg" alt="Labflox"/>
-                                        <h3><a href="{{ route('blog.single') }}">19 Ways to Balance Your Hormones Naturally</a></h3>
-                                        <span>July 09, 2021</span>
-                                    </div>
-                                    <div class="lpSingle">
-                                        <img src="biolab_assets/images/news/10.jpg" alt="Labflox"/>
-                                        <h3><a href="{{ route('blog.single') }}">19 Ways to Balance Your Hormones Naturally</a></h3>
-                                        <span>July 09, 2021</span>
-                                    </div>
+                                    @forelse ($latestBlogs as $latestBlog)
+                                        <div class="lpSingle">
+                                            <img src="{{ $latestBlog->image_path ? asset('storage/'.$latestBlog->image_path) : asset('biolab_assets/images/news/'.((($loop->index + 1) % 3) + 8).'.jpg') }}" alt="{{ $latestBlog->title }}"/>
+                                            <h3><a href="{{ route('blog.single', $latestBlog) }}">{{ $latestBlog->title }}</a></h3>
+                                            <span>{{ $latestBlog->created_at->format('F d, Y') }}</span>
+                                        </div>
+                                    @empty
+                                        <p>No other posts yet.</p>
+                                    @endforelse
                                 </div>
                             </aside>
                             <aside class="widget">
                                 <h3 class="widgetTitle">Categories</h3>
                                 <ul>
-                                    <li><a href="#">Science</a></li>
-                                    <li><a href="#">Technolgy</a></li>
-                                    <li><a href="#">Laborotory</a></li>
-                                    <li><a href="#">Business</a></li>
-                                    <li><a href="#">Research</a></li>
+                                    @forelse ($categories as $category)
+                                        <li><a href="#">{{ $category }}</a></li>
+                                    @empty
+                                        <li><a href="#">No categories</a></li>
+                                    @endforelse
                                 </ul>
                             </aside>
                             <aside class="widget">
                                 <h3 class="widgetTitle">Tags</h3>
                                 <div class="tagcloud">
-                                    <a href="#">Plumbing</a>
-                                    <a href="#">Repair</a>
-                                    <a href="#">App</a>
-                                    <a href="#">Business</a>
-                                    <a href="#">Social</a>
-                                    <a href="#">Clean</a>
+                                    @foreach ($categories as $category)
+                                        <a href="#">{{ $category }}</a>
+                                    @endforeach
                                 </div>
                             </aside>
                         </div>

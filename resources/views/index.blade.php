@@ -728,63 +728,34 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 col-lg-4">
-                        <div class="newsItem">
-                            <div class="niThumb">
-                                <img src="biolab_assets/images/news/1.png" alt="Labflox"/>
-                            </div>
-                            <div class="niDetails">
-                                <div class="niDate roboto"><span>25</span><span>Oct</span></div>
-                                <div class="niMeta">
-                                    <span><i class="fa fa-tags"></i><a href="blog.html">Laborotory</a></span>
-                                    <span><i class="fa fa-user"></i><a href="blog.html">Admin</a></span>
+                    @forelse ($latestBlogs as $blog)
+                        <div class="col-md-6 col-lg-4">
+                            <div class="newsItem">
+                                <div class="niThumb">
+                                    <img src="{{ $blog->image_path ? asset('storage/'.$blog->image_path) : asset('biolab_assets/images/news/'.(($loop->index % 3) + 1).'.png') }}" alt="{{ $blog->title }}"/>
                                 </div>
-                                <h3><a href="blog-single.html">10 Best Mobile Apps for Scientific Research</a></h3>
-                                <div class="blogFooter clearfix">
-                                    <a href="blog-single.html" class="readMore">Read More<i class="fa fa-arrow-right"></i></a>
-                                    <a href="blog-single.html" class="commentCount"><i class="fa fa-comment-o"></i>212</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="newsItem">
-                            <div class="niThumb">
-                                <img src="biolab_assets/images/news/2.png" alt="Labflox"/>
-                            </div>
-                            <div class="niDetails">
-                                <div class="niDate roboto"><span>27</span><span>Oct</span></div>
-                                <div class="niMeta">
-                                    <span><i class="fa fa-tags"></i><a href="blog.html">Research</a></span>
-                                    <span><i class="fa fa-user"></i><a href="blog.html">Admin</a></span>
-                                </div>
-                                <h3><a href="blog-single.html">Influential People in the Scientific Research Industry</a></h3>
-                                <div class="blogFooter clearfix">
-                                    <a href="blog-single.html" class="readMore">Read More<i class="fa fa-arrow-right"></i></a>
-                                    <a href="blog-single.html" class="commentCount"><i class="fa fa-comment-o"></i>397</a>
+                                <div class="niDetails">
+                                    <div class="niDate roboto">
+                                        <span>{{ $blog->created_at->format('d') }}</span>
+                                        <span>{{ $blog->created_at->format('M') }}</span>
+                                    </div>
+                                    <div class="niMeta">
+                                        <span><i class="fa fa-tags"></i><a href="javascript:void(0);">{{ $blog->category }}</a></span>
+                                        <span><i class="fa fa-user"></i><a href="javascript:void(0);">Admin</a></span>
+                                    </div>
+                                    <h3><a href="{{ route('blog.single', $blog) }}">{{ $blog->title }}</a></h3>
+                                    <div class="blogFooter clearfix">
+                                        <a href="{{ route('blog.single', $blog) }}" class="readMore">Read More<i class="fa fa-arrow-right"></i></a>
+                                        <a href="{{ route('blog.single', $blog) }}" class="commentCount"><i class="fa fa-comment-o"></i>0</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="newsItem">
-                            <div class="niThumb">
-                                <img src="biolab_assets/images/news/3.png" alt="Labflox"/>
-                            </div>
-                            <div class="niDetails">
-                                <div class="niDate roboto"><span>28</span><span>Oct</span></div>
-                                <div class="niMeta">
-                                    <span><i class="fa fa-tags"></i><a href="blog.html">Business</a></span>
-                                    <span><i class="fa fa-user"></i><a href="blog.html">Admin</a></span>
-                                </div>
-                                <h3><a href="blog-single.html">A Productive Rant About Scientific Research</a></h3>
-                                <div class="blogFooter clearfix">
-                                    <a href="blog-single.html" class="readMore">Read More<i class="fa fa-arrow-right"></i></a>
-                                    <a href="blog-single.html" class="commentCount"><i class="fa fa-comment-o"></i>178</a>
-                                </div>
-                            </div>
+                    @empty
+                        <div class="col-lg-12 text-center">
+                            <p>No blog posts have been published yet.</p>
                         </div>
-                    </div>
+                    @endforelse
                 </div>
             </div>
         </section>
