@@ -60,7 +60,7 @@
                 <div id="rev_slider_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.1">
                     <ul>
                         <li data-index="rs-3046" data-transition="random-premium" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1000"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                            <img src="biolab_assets/images/slider/1.1.jpg"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                            <img src="biolab_assets/images/slider/11.1.webp"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                             <div class="tp-caption tp-resizeme heebo"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -196,7 +196,7 @@
                                 ></div>
                         </li>
                         <li data-index="rs-3047" data-transition="random-premium" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1000"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                            <img src="biolab_assets/images/slider/1.2.jpg"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                            <img src="biolab_assets/images/slider/11.2.webp"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                             <div class="tp-caption tp-resizeme heebo"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -332,7 +332,7 @@
                                 ></div>
                         </li>
                         <li data-index="rs-3048" data-transition="random-premium" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1000"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                            <img src="biolab_assets/images/slider/1.3.jpg"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                            <img src="biolab_assets/images/slider/11.3.webp"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                             <div class="tp-caption tp-resizeme heebo"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -490,7 +490,7 @@
                             <h2>Our Services</h2>
                             <div class="serviceSlider owl-carousel">
                                 <div class="singleService01">
-                                    <img src="biolab_assets/images/services/1.jpg" alt=""/>
+                                    <img src="biolab_assets/images/services/1.1.webp" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-GA9M8J01"></i>
                                         <h3><a>Laboratory  Service</a></h3>
@@ -500,7 +500,7 @@
                                     </div>
                                 </div>
                                 <div class="singleService01">
-                                    <img src="biolab_assets/images/services/2.jpg" alt=""/>
+                                    <img src="biolab_assets/images/services/1.2.webp" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-Yk7aBo01"></i>
                                         <h3><a>Medicine Research</a></h3>
@@ -510,7 +510,7 @@
                                     </div>
                                 </div>
                                 <div class="singleService01">
-                                    <img src="biolab_assets/images/services/3.jpg" alt=""/>
+                                    <img src="biolab_assets/images/services/1.3.webp" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-MjY3z001"></i>
                                         <h3><a>Clinical Research</a></h3>
@@ -520,7 +520,7 @@
                                     </div>
                                 </div>
                                 <div class="singleService01">
-                                    <img src="biolab_assets/images/services/1.jpg" alt=""/>
+                                    <img src="biolab_assets/images/services/1.4.webp" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-Yk7aBo01"></i>
                                         <h3><a>Laboratory  Service</a></h3>
@@ -612,7 +612,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="aboutImg text-right">
-                            <img src="biolab_assets/images/home1/1.jpg" alt=""/>
+                            <img src="biolab_assets/images/home1/1.1.webp" alt=""/>
                             <div class="expCounter">
                                 <span class="counters" data-count="25" data-suffix="" data-format="plain">05</span>
                                 <span>Years of Experience</span>
