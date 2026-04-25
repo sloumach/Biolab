@@ -6,7 +6,7 @@
                         <aside class="widget">
                             <div class="contactWidtetContent">
                                 <div class="footerLogo">
-                                    <a href="index.html"><img src="biolab_assets/images/biolab-logo.png" alt="LabFlox"/></a>
+                                    <a href="{{ route('home') }}"><img src="{{ asset('biolab_assets/images/biolab-logo.png') }}" alt="LabFlox"/></a>
                                 </div>
                                 <div class="cwcInfo">
                                     <i class="laf-y4LP01"></i>
@@ -29,7 +29,7 @@
                                 <div class="col-lg-5">
                                     <div class="sfLeft">
                                         <!--<i class="laf-CaWRfT01"></i>-->
-                                        <img src="biolab_assets/images/icons/1.png" alt=""/>
+                                        <img src="{{ asset('biolab_assets/images/icons/1.png') }}" alt=""/>
                                         <h3>
                                             Get latest updates Subscribe
                                             to Our Newsletter

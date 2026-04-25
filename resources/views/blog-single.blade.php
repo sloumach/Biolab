@@ -32,7 +32,7 @@
                     <div class="col-lg-12">
                         <div class="navArea">
                             <div class="logo logo--large">
-                                <a href="{{ route('home') }}"><img src="biolab_assets/images/biolab-logo.png" alt="Labflox"/></a>
+                                <a href="{{ route('home') }}"><img src="{{ asset('biolab_assets/images/biolab-logo.png') }}" alt="Labflox"/></a>
                             </div>
                             <nav class="mainMenu">
 
