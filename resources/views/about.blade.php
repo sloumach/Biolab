@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="utf-8">
         <meta name="description" content="Creative Agency Responsive HTML5 Template. Built with Bootstrap, HTML5, CSS3 and jQuery.">
         <meta name="keywords" content="HTML, CSS, JavaScript, jQuery, Animation, Bootstrap, Font Awesome, Revolution Slider, Labflox, Portfolio">
         <meta name="author" content="Themewar">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Biolab - About</title>
+        <title>Biolab - À propos</title>
 
         @include('partials.styles')
     </head>
@@ -41,10 +41,10 @@
                             <div class="accessNav">
                                 <div class="phoneCall">
                                     <i class="fa fa-phone"></i>
-                                    <span>24/7 Emergency Phone</span>
+                                    <span>Téléphone d'urgence 24h/24</span>
                                     <h6>+36 55 540 069</h6>
                                 </div>
-                                <a href="{{ route('appointment') }}" class="lab_btn lightHover requestBTN"><span><i class="fa fa-calendar-plus-o"></i>Request Appointment</span></a>
+                                <a href="{{ route('appointment') }}" class="lab_btn lightHover requestBTN"><span><i class="fa fa-calendar-plus-o"></i>Prendre rendez-vous</span></a>
                                 <a href="javascript:void(0);" class="menuBtn"><span><i class="fa fa-bars"></i>Menu</span></a>
                             </div>
                         </div>
@@ -60,12 +60,12 @@
                 <div class="row">
                     <div class="col-md-9 col-lg-7 col-xl-6">
                         <div class="pageBannerContent">
-                            <h5>About Us</h5>
-                            <h2>Leading in research science and medicine</h2>
+                            <h5>À propos</h5>
+                            <h2>Une référence en recherche scientifique et en médecine</h2>
                             <div class="pageBreadCum">
-                                <a href="{{ route('home') }}">Home</a>
+                                <a href="{{ route('home') }}">Accueil</a>
                                 <i class="fa fa-angle-right"></i>
-                                <span>About Us</span>
+                                <span>À propos</span>
                             </div>
                         </div>
                     </div>
@@ -80,20 +80,20 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="aboutContent2">
-                            <h5 class="secSubTitle">About Us</h5>
+                            <h5 class="secSubTitle">À propos</h5>
                             <h2 class="secTitle">
-                                We provide quality laboratory reasearch
+                                Nous proposons une recherche de laboratoire de qualité
                             </h2>
                             <p>
-                                We specialize in food and beverage spoilage with a strong background in heat-resistant molds (HRM), Alicyclobacillus (ACB), 
-                                preservative resistant and xerophilic yeast and molds
+                                Nous sommes spécialisés dans l'analyse des altérations alimentaires et des boissons,
+                                avec une expertise reconnue dans les moisissures thermorésistantes, les levures et les moisissures résistantes.
                             </p>
                             <div class="row">
                                 <div class="col-md-7 col-lg-8">
                                     <ul class="listUL">
-                                        <li>We are able to offer the most test</li>
-                                        <li>medical diagnosis and treatment</li>
-                                        <li>Other health packages</li>
+                                        <li>Une large gamme d'analyses spécialisées</li>
+                                        <li>Un accompagnement pour le diagnostic et le suivi</li>
+                                        <li>D'autres offres de santé complémentaires</li>
                                     </ul>
                                     <div class="abcAuthor clearfix">
                                         <div class="abcIMG">
@@ -106,7 +106,7 @@
                                     <div class="expCounter2">
                                         <span class="counters" data-count="5" data-suffix="" data-format="leadingzero">05</span>
                                         <span>
-                                            Years of Experience
+                                            Années d'expérience
                                         </span>
                                     </div>
                                 </div>
@@ -134,28 +134,28 @@
                                     <div class="fact01 text-center">
                                         <i class="laf-GA9M8J01"></i>
                                         <h2 class="heebo counters" data-count="32000" data-suffix="+" data-format="separator">32,000+</h2>
-                                        <h6 class="heebo">Pathology Services</h6>
+                                        <h6 class="heebo">Services de pathologie</h6>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3">
                                     <div class="fact01 text-center">
                                         <i class="laf-lHEkBa01"></i>
                                         <h2 class="heebo counters" data-count="25" data-suffix=" M" data-format="plain">25 M</h2>
-                                        <h6 class="heebo">Tests performed annually</h6>
+                                        <h6 class="heebo">Tests réalisés chaque année</h6>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3">
                                     <div class="fact01 text-center">
                                         <i class="laf-VoAPSp01"></i>
                                         <h2 class="heebo counters" data-count="25" data-suffix="+" data-format="plain">90+</h2>
-                                        <h6 class="heebo">Subspecialty pathologists</h6>
+                                        <h6 class="heebo">Pathologistes spécialisés</h6>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3">
                                     <div class="fact01 text-center">
                                         <i class="laf-DqlwU301"></i>
                                         <h2 class="heebo counters" data-count="4.5" data-suffix=" M" data-format="decimal">4.5 M</h2>
-                                        <h6 class="heebo">Patients worldwide</h6>
+                                        <h6 class="heebo">Patients dans le monde</h6>
                                     </div>
                                 </div>
                             </div>
@@ -177,28 +177,28 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="aboutSkillContent">
-                            <h5 class="secSubTitle"><span>Why We Different</span></h5>
+                            <h5 class="secSubTitle"><span>Notre différence</span></h5>
                             <h2 class="secTitle">
-                                We provide quality laboratory reasearch
+                                Nous proposons une recherche de laboratoire de qualité
                             </h2>
                             <p>
-                                We specialize in food and beverage spoilage with a strong background in heat-resistant molds (HRM), 
-                                Alicyclobacillus (ACB), preservative resistant and xerophilic yeast and molds
+                                Nous réunissons expertise, méthodes fiables et accompagnement sur mesure
+                                pour produire des résultats clairs, utiles et exploitables.
                             </p>
                             <div class="singleProgress">
-                                <span>Research</span>
+                                <span>Recherche</span>
                                 <div class="spParent" data-parcent="70">
                                     <div class="spInner"><span></span></div>
                                 </div>
                             </div>
                             <div class="singleProgress">
-                                <span>Pathology</span>
+                                <span>Pathologie</span>
                                 <div class="spParent" data-parcent="90">
                                     <div class="spInner"><span></span></div>
                                 </div>
                             </div>
                             <div class="singleProgress noMarginBottom">
-                                <span>Testing</span>
+                                <span>Analyses</span>
                                 <div class="spParent" data-parcent="60">
                                     <div class="spInner"><span></span></div>
                                 </div>
@@ -215,8 +215,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h5 class="secSubTitle2">Our Research Expert</h5>
-                        <h2 class="secTitle">Meet Speacialist Researcher</h2>
+                        <h5 class="secSubTitle2">Nos experts</h5>
+                        <h2 class="secTitle">Rencontrez nos spécialistes</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -225,7 +225,7 @@
                             <img src="biolab_assets/images/team/1.jpg" alt="Harny Mirinda"/>
                             <div class="stContent">
                                 <h3><a href="#">Harny Mirinda</a></h3>
-                                <p>Head Of Laboratory </p>
+                                <p>Responsable du laboratoire</p>
                             </div>
                             <div class="stShare">
                                 <a href="javascript:void(0);"><i class="fa fa-share-alt"></i></a>
@@ -243,7 +243,7 @@
                             <img src="biolab_assets/images/team/2.jpg" alt="Harny Mirinda"/>
                             <div class="stContent">
                                 <h3><a href="#">Alia Henry</a></h3>
-                                <p>Scientist</p>
+                                <p>Scientifique</p>
                             </div>
                             <div class="stShare">
                                 <a href="javascript:void(0);"><i class="fa fa-share-alt"></i></a>
@@ -261,7 +261,7 @@
                             <img src="biolab_assets/images/team/3.jpg" alt="Harny Mirinda"/>
                             <div class="stContent">
                                 <h3><a href="#">Mac Harnold</a></h3>
-                                <p>Pathologist</p>
+                                <p>Pathologiste</p>
                             </div>
                             <div class="stShare">
                                 <a href="javascript:void(0);"><i class="fa fa-share-alt"></i></a>
@@ -279,7 +279,7 @@
                             <img src="biolab_assets/images/team/4.jpg" alt="Harny Mirinda"/>
                             <div class="stContent">
                                 <h3><a href="#">Harny Mirinda</a></h3>
-                                <p>Doctor</p>
+                                <p>Médecin</p>
                             </div>
                             <div class="stShare">
                                 <a href="javascript:void(0);"><i class="fa fa-share-alt"></i></a>

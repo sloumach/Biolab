@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="utf-8">
         <meta name="description" content="Creative Agency Responsive HTML5 Template. Built with Bootstrap, HTML5, CSS3 and jQuery.">
         <meta name="keywords" content="HTML, CSS, JavaScript, jQuery, Animation, Bootstrap, Font Awesome, Revolution Slider, Labflox, Portfolio">
         <meta name="author" content="Themewar">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Biolab - Appointment</title>
+        <title>Biolab - Rendez-vous</title>
 
         @include('partials.styles')
     </head>
@@ -40,10 +40,10 @@
                             <div class="accessNav">
                                 <div class="phoneCall">
                                     <i class="fa fa-phone"></i>
-                                    <span>24/7 Emergency Phone</span>
+                                    <span>Téléphone d'urgence 24h/24</span>
                                     <h6>+36 55 540 069</h6>
                                 </div>
-                                <a href="{{ route('appointment') }}" class="lab_btn lightHover requestBTN"><span><i class="fa fa-calendar-plus-o"></i>Request Appointment</span></a>
+                                <a href="{{ route('appointment') }}" class="lab_btn lightHover requestBTN"><span><i class="fa fa-calendar-plus-o"></i>Prendre rendez-vous</span></a>
                                 <a href="javascript:void(0);" class="menuBtn"><span><i class="fa fa-bars"></i>Menu</span></a>
                             </div>
                         </div>
@@ -59,12 +59,12 @@
                 <div class="row">
                     <div class="col-md-10 col-lg-8 col-xl-6">
                         <div class="pageBannerContent">
-                            <h5>Appointment</h5>
-                            <h2>An order for lab work from your provider is required.</h2>
+                            <h5>Rendez-vous</h5>
+                            <h2>Une prescription de votre praticien est requise pour toute analyse.</h2>
                             <div class="pageBreadCum">
-                                <a href="{{ route('home') }}">Home</a>
+                                <a href="{{ route('home') }}">Accueil</a>
                                 <i class="fa fa-angle-right"></i>
-                                <span>Appointment</span>
+                                <span>Rendez-vous</span>
                             </div>
                         </div>
                     </div>
@@ -81,52 +81,52 @@
                         <div class="appointmentContent">
                             <div class="phoneCall7">
                                 <i class="fa fa-phone"></i>
-                                <span>For all appointments</span>
+                                <span>Pour tous les rendez-vous</span>
                                 <h6>+36 55 540 069</h6>
                             </div>
-                            <h2>Appointment Information</h2>
+                            <h2>Informations sur le rendez-vous</h2>
                             <p>
-                                We specialize in food and beverage spoilage with a strong background in heat-resistant molds (HRM), Alicyclobacillus (ACB), 
-                                preservative resistant and xerophilic yeast and molds test results are usually reviewed.
+                                Nous mettons à votre disposition un accompagnement rigoureux pour planifier vos analyses
+                                et préparer au mieux votre passage au laboratoire.
                             </p>
                             <ul class="listUL">
-                                <li>Always let us know in advance if you need to change or cancel an appointment by calling 457-4180.</li>
-                                <li>Identify and prioritize a list of what you want to talk to the physician about during your appointment.</li>
-                                <li>Bring a list of current medications and supplements showing the dosage that you take. Or bring the bottles.</li>
+                                <li>Prévenez-nous à l'avance si vous devez modifier ou annuler votre rendez-vous.</li>
+                                <li>Préparez les informations importantes à transmettre au professionnel de santé.</li>
+                                <li>Apportez la liste de vos traitements et compléments, avec les dosages si possible.</li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="appointmentForm">
-                            <h2>Fill The Form</h2>
+                            <h2>Remplir le formulaire</h2>
                             <form method="post" action="{{ route('appointment.store') }}" id="appointment_form">
                                 @csrf
-                                <input type="text" name="patient_name" value="{{ old('patient_name') }}" placeholder="Patient Name *" class="required @error('patient_name') reqError @enderror"/>
-                                <input type="email" name="email" value="{{ old('email') }}" placeholder="Your Mail *" class="required @error('email') reqError @enderror"/>
-                                <input type="text" name="phone" value="{{ old('phone') }}" placeholder="Your Phone *" class="required @error('phone') reqError @enderror"/>
+                                <input type="text" name="patient_name" value="{{ old('patient_name') }}" placeholder="Nom du patient *" class="required @error('patient_name') reqError @enderror"/>
+                                <input type="email" name="email" value="{{ old('email') }}" placeholder="Votre e-mail *" class="required @error('email') reqError @enderror"/>
+                                <input type="text" name="phone" value="{{ old('phone') }}" placeholder="Votre téléphone *" class="required @error('phone') reqError @enderror"/>
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <select name="gender" class="@error('gender') reqError @enderror">
-                                            <option value="">Select Gender</option>
-                                            <option value="Male" @selected(old('gender') === 'Male')>Male</option>
-                                            <option value="Female" @selected(old('gender') === 'Female')>Female</option>
-                                            <option value="Other" @selected(old('gender') === 'Other')>Other</option>
+                                            <option value="">Sélectionnez le genre</option>
+                                            <option value="Male" @selected(old('gender') === 'Male')>Homme</option>
+                                            <option value="Female" @selected(old('gender') === 'Female')>Femme</option>
+                                            <option value="Other" @selected(old('gender') === 'Other')>Autre</option>
                                         </select>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="date_picker">
-                                            <input type="text" name="appointment_date" value="{{ old('appointment_date') }}" placeholder="yyyy-mm-dd" id="litepicker" class="required @error('appointment_date') reqError @enderror"/>
+                                            <input type="text" name="appointment_date" value="{{ old('appointment_date') }}" placeholder="aaaa-mm-jj" id="litepicker" class="required @error('appointment_date') reqError @enderror"/>
                                             <label for="litepicker"><i class="fa fa-calendar" aria-hidden="true"></i></label>
                                         </div>
                                     </div>
                                 </div>
-                                <button type="submit"><span>Request Appointment</span></button>
+                                <button type="submit"><span>Envoyer la demande</span></button>
                                 @if (session('success'))
                                     <div class="alert con_message alert-success" style="display: block;">{{ session('success') }}</div>
                                 @endif
                                 @if ($errors->any())
                                     <div class="alert con_message alert-warning" style="display: block;">
-                                        Please fix the highlighted fields and submit again.
+                                        Merci de corriger les champs en surbrillance puis de renvoyer le formulaire.
                                     </div>
                                 @endif
                             </form>
@@ -143,11 +143,11 @@
                 <div class="row">
                     <div class="col-md-6 col-lg-7">
                         <div class="ctaContent">
-                            <h5 class="secSubTitle2 heebo">Achieving Efficiencies</h5>
+                            <h5 class="secSubTitle2 heebo">Gagner en efficacité</h5>
                             <h2 class="secTitle">
-                                Expanding Your Test Menu through Global Logistics
+                                Élargissez votre offre d'analyses grâce à une logistique maîtrisée
                             </h2>
-                            <a href="{{ route('appointment') }}" class="lab_btn lightHover">Request Appointment</a>
+                            <a href="{{ route('appointment') }}" class="lab_btn lightHover">Prendre rendez-vous</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-5">
