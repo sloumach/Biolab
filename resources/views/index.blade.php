@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="utf-8">
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta name="author" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Biolab - Laboratory & Research</title>
+        <title>Biolab - Laboratoire & Recherche</title>
 
         @include('partials.styles')
     </head>
@@ -41,10 +41,10 @@
                             <div class="accessNav">
                                 <div class="phoneCall">
                                     <i class="fa fa-phone"></i>
-                                    <span>24/7 Emergency Phone</span>
+                                    <span>Téléphone d'urgence 24h/24</span>
                                     <h6>+36 55 540 069</h6>
                                 </div>
-                                <a href="{{ route('appointment') }}" class="lab_btn lightHover requestBTN"><span><i class="fa fa-calendar-plus-o"></i>Request Appointment</span></a>
+                                <a href="{{ route('appointment') }}" class="lab_btn lightHover requestBTN"><span><i class="fa fa-calendar-plus-o"></i>Prendre rendez-vous</span></a>
                                 <a href="javascript:void(0);" class="menuBtn"><span><i class="fa fa-bars"></i>Menu</span></a>
                             </div>
                         </div>
@@ -89,7 +89,7 @@
                                 data-marginleft="['0','0','0','0']"
 
                                 style="background-color: #7A2A84; letter-spacing: -.18px;"
-                                >Affordable Diagnostic services</div>
+                                >Des services de diagnostic accessibles</div>
                             <div class="tp-caption ws_nowrap heebo"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -117,7 +117,7 @@
                                 data-paddingleft="['0','0','0','0']"
                                 data-marginleft="['0','0','0','0']"
 
-                                >Diagnostic Laboratory strives for excellence</div>
+                                >Notre laboratoire de diagnostic vise l'excellence</div>
                             <div class="tp-caption tp-resizeme"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -225,7 +225,7 @@
                                 data-marginleft="['0','0','0','0']"
 
                                 style="background-color: #7A2A84; letter-spacing: -.18px;"
-                                >Affordable Diagnostic services</div>
+                                >Des services de diagnostic accessibles</div>
                             <div class="tp-caption ws_nowrap heebo"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -253,7 +253,7 @@
                                 data-paddingleft="['0','0','0','0']"
                                 data-marginleft="['0','0','0','0']"
 
-                                >Diagnostic Laboratory strives for excellence</div>
+                                >Notre laboratoire de diagnostic vise l'excellence</div>
                             <div class="tp-caption tp-resizeme"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -361,7 +361,7 @@
                                 data-marginleft="['0','0','0','0']"
 
                                 style="background-color: #7A2A84; letter-spacing: -.18px;"
-                                >Affordable Diagnostic services</div>
+                                >Des services de diagnostic accessibles</div>
                             <div class="tp-caption ws_nowrap heebo"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -389,7 +389,7 @@
                                 data-paddingleft="['0','0','0','0']"
                                 data-marginleft="['0','0','0','0']"
 
-                                >Diagnostic Laboratory strives for excellence</div>
+                                >Notre laboratoire de diagnostic vise l'excellence</div>
                             <div class="tp-caption tp-resizeme"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -479,23 +479,23 @@
                 <div class="row">
                     <div class="col-lg-12 col-xl-5 noPaddingLeft">
                         <div class="serviceLeft">
-                            <h2>Largest provider of specialty laboratory testing services</h2>
-                            <p>Our qualified and ardent team of doctors and <br> technologists provide strong support Interactively coordinate <br> proactive e-commerce via process-centric outside the box.</p>
+                            <h2>Le plus grand fournisseur de services de tests de laboratoire spécialisés</h2>
+                            <p>Notre équipe qualifiée de médecins et de techniciens <br> vous accompagne avec rigueur. Nous coordonnons <br> des solutions efficaces et adaptées à vos besoins.</p>
                             <img src="biolab_assets/images/signature.png" alt="Mark Anthony"/>
-                            <h5>Mark Anthony &nbsp;&nbsp;/&nbsp;&nbsp; <span>Director</span></h5>
+                            <h5>Mark Anthony &nbsp;&nbsp;/&nbsp;&nbsp; <span>Directeur</span></h5>
                         </div>
                     </div>
                     <div class="col-lg-12 col-xl-7">
                         <div class="serviceArea">
-                            <h2>Our Services</h2>
+                            <h2>Nos services</h2>
                             <div class="serviceSlider owl-carousel">
                                 <div class="singleService01">
                                     <img src="biolab_assets/images/services/1.1.webp" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-GA9M8J01"></i>
-                                        <h3><a>Laboratory  Service</a></h3>
+                                        <h3><a>Services de laboratoire</a></h3>
                                         <p>
-                                            Our qualified and ardent team of technologists provide
+                                            Notre équipe de techniciens qualifiés vous accompagne
                                         </p>
                                     </div>
                                 </div>
@@ -503,9 +503,9 @@
                                     <img src="biolab_assets/images/services/1.2.webp" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-Yk7aBo01"></i>
-                                        <h3><a>Medicine Research</a></h3>
+                                        <h3><a>Recherche médicale</a></h3>
                                         <p>
-                                            Our qualified and ardent team of technologists provide
+                                            Notre équipe de techniciens qualifiés vous accompagne
                                         </p>
                                     </div>
                                 </div>
@@ -513,9 +513,9 @@
                                     <img src="biolab_assets/images/services/1.3.webp" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-MjY3z001"></i>
-                                        <h3><a>Clinical Research</a></h3>
+                                        <h3><a>Recherche clinique</a></h3>
                                         <p>
-                                            Our qualified and ardent team of technologists provide
+                                            Notre équipe de techniciens qualifiés vous accompagne
                                         </p>
                                     </div>
                                 </div>
@@ -523,9 +523,9 @@
                                     <img src="biolab_assets/images/services/1.4.webp" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-Yk7aBo01"></i>
-                                        <h3><a>Laboratory  Service</a></h3>
+                                        <h3><a>Services de laboratoire</a></h3>
                                         <p>
-                                            Our qualified and ardent team of technologists provide
+                                            Notre équipe de techniciens qualifiés vous accompagne
                                         </p>
                                     </div>
                                 </div>
@@ -545,28 +545,28 @@
                         <div class="fact01 text-center">
                             <i class="laf-GA9M8J01"></i>
                             <h2 class="heebo counters" data-count="32000" data-suffix="+" data-format="separator">32,000+</h2>
-                            <h6 class="heebo">Pathology Services</h6>
+                            <h6 class="heebo">Services de pathologie</h6>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="fact01 text-center">
                             <i class="laf-lHEkBa01"></i>
                             <h2 class="heebo counters" data-count="25" data-suffix=" M" data-format="plain">25 M</h2>
-                            <h6 class="heebo">Tests performed annually</h6>
+                            <h6 class="heebo">Tests réalisés chaque année</h6>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="fact01 text-center">
                             <i class="laf-VoAPSp01"></i>
                             <h2 class="heebo counters" data-count="25" data-suffix="+" data-format="plain">90+</h2>
-                            <h6 class="heebo">Subspecialty pathologists</h6>
+                            <h6 class="heebo">Pathologistes spécialisés</h6>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
                         <div class="fact01 text-center">
                             <i class="laf-DqlwU301"></i>
                             <h2 class="heebo counters" data-count="4.5" data-suffix=" M" data-format="decimal">4.5 M</h2>
-                            <h6 class="heebo">Patients worldwide</h6>
+                            <h6 class="heebo">Patients dans le monde</h6>
                         </div>
                     </div>
                 </div>
@@ -580,13 +580,13 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="aboutContent">
-                            <h5 class="secSubTitle heebo">About Us</h5>
+                            <h5 class="secSubTitle heebo">À propos</h5>
                             <h2 class="secTitle">
-                                We provide quality laboratory reasearch
+                                Nous proposons une recherche de laboratoire de qualité
                             </h2>
                             <p>
-                                We specialize in food and beverage spoilage with a strong background in heat-resistant molds (HRM),
-                                Alicyclobacillus (ACB), preservative resistant and xerophilic yeast and molds
+                                Nous sommes spécialisés dans l'analyse des altérations alimentaires et des boissons,
+                                avec une forte expertise sur les moisissures thermorésistantes, les levures et les moisissures résistantes.
                             </p>
                             <div class="hr"></div>
                             <div class="row mb43">
@@ -594,7 +594,7 @@
                                     <div class="iconBox01">
                                         <i class="laf-F4W0Q01"></i>
                                         <h3>
-                                            Largest General Diagnostic Tests
+                                            Large éventail de tests diagnostiques
                                         </h3>
                                     </div>
                                 </div>
@@ -602,12 +602,12 @@
                                     <div class="iconBox01 ib01Last">
                                         <i class="laf-lHEkBa01"></i>
                                         <h3>
-                                            Connecting You with World-Class Support
+                                            Un accompagnement fiable et reconnu
                                         </h3>
                                     </div>
                                 </div>
                             </div>
-                            <a href="{{ route('about') }}" class="lab_btn darkHover">Read More</a>
+                            <a href="{{ route('about') }}" class="lab_btn darkHover">En savoir plus</a>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -615,7 +615,7 @@
                             <img src="biolab_assets/images/home1/1.1.webp" alt=""/>
                             <div class="expCounter">
                                 <span class="counters" data-count="25" data-suffix="" data-format="plain">05</span>
-                                <span>Years of Experience</span>
+                                <span>Années d'expérience</span>
                             </div>
                         </div>
                     </div>
@@ -629,8 +629,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h5 class="secSubTitle2 heebo">Test Categories</h5>
-                        <h2 class="secTitle">Specialty Testing For Everyone</h2>
+                        <h5 class="secSubTitle2 heebo">Catégories de tests</h5>
+                        <h2 class="secTitle">Des analyses spécialisées pour tous</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -640,29 +640,29 @@
                                 <div class="col-md-6 col-lg-3 noPadding">
                                     <div class="testCatItem">
                                         <i class="laf-DqlwU301"></i>
-                                        <h3 class="heebo">Infection screening</h3>
-                                        <p>Our qualified and ardent team of technologists provide strong support</p>
+                                        <h3 class="heebo">Dépistage des infections</h3>
+                                        <p>Notre équipe qualifiée vous apporte un accompagnement précis et réactif.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3 noPadding">
                                     <div class="testCatItem">
                                         <i class="laf-F4W0Q01"></i>
-                                        <h3 class="heebo">Gastrointestinal</h3>
-                                        <p>Our qualified and ardent team of technologists provide strong support</p>
+                                        <h3 class="heebo">Gastro-intestinal</h3>
+                                        <p>Notre équipe qualifiée vous apporte un accompagnement précis et réactif.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3 noPadding">
                                     <div class="testCatItem">
                                         <i class="laf-GiBYLh01"></i>
-                                        <h3 class="heebo">Endocrinology</h3>
-                                        <p>Our qualified and ardent team of technologists provide strong support</p>
+                                        <h3 class="heebo">Endocrinologie</h3>
+                                        <p>Notre équipe qualifiée vous apporte un accompagnement précis et réactif.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3 noPadding">
                                     <div class="testCatItem">
                                         <i class="laf-Yk7aBo01"></i>
-                                        <h3 class="heebo">Heart health</h3>
-                                        <p>Our qualified and ardent team of technologists provide strong support</p>
+                                        <h3 class="heebo">Santé cardiaque</h3>
+                                        <p>Notre équipe qualifiée vous apporte un accompagnement précis et réactif.</p>
                                     </div>
                                 </div>
                             </div>
@@ -681,11 +681,11 @@
                     <div class="col-lg-4 col-xl-5"></div>
                     <div class="col-lg-8 col-xl-7">
                         <div class="wcuContent">
-                            <h5 class="secSubTitle heebo">Why Choose Us</h5>
-                            <h2 class="secTitle">The trusted leader in laboratory reasearch</h2>
+                            <h5 class="secSubTitle heebo">Pourquoi nous choisir</h5>
+                            <h2 class="secTitle">Le partenaire de confiance en recherche de laboratoire</h2>
                             <p>
-                                We specialize in food and beverage spoilage with a strong background in heat-resistant molds (HRM),
-                                Alicyclobacillus (ACB), preservative resistant and xerophilic yeast and molds
+                                Nous mettons à votre service une expertise solide, des méthodes éprouvées
+                                et une équipe engagée pour garantir des résultats fiables et utiles à vos décisions.
                             </p>
                             <div class="skillArea clearfix">
                                 <div class="singleSkill text-center">
@@ -697,7 +697,7 @@
                                          data-emptyfills="#ebebeb"
                                          data-linecaps="square"
                                          ><strong></strong></div>
-                                    <p>Successful Rate</p>
+                                    <p>Taux de réussite</p>
                                 </div>
                                 <div class="singleSkill text-center">
                                     <div class="skillOne"
@@ -708,7 +708,7 @@
                                          data-emptyfills="#ebebeb"
                                          data-linecaps="square"
                                          ><strong></strong></div>
-                                    <p>Tests performed </p>
+                                    <p>Tests réalisés</p>
                                 </div>
                             </div>
                         </div>
@@ -723,8 +723,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h5 class="secSubTitle2 heebo">Latest News</h5>
-                        <h2 class="secTitle">Whats Happening Around You</h2>
+                        <h5 class="secSubTitle2 heebo">Dernières actualités</h5>
+                        <h2 class="secTitle">Ce qui se passe autour de vous</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -745,7 +745,7 @@
                                     </div>
                                     <h3><a href="{{ route('blog.single', $blog) }}">{{ $blog->title }}</a></h3>
                                     <div class="blogFooter clearfix">
-                                        <a href="{{ route('blog.single', $blog) }}" class="readMore">Read More<i class="fa fa-arrow-right"></i></a>
+                                        <a href="{{ route('blog.single', $blog) }}" class="readMore">Lire la suite<i class="fa fa-arrow-right"></i></a>
                                         <a href="{{ route('blog.single', $blog) }}" class="commentCount"><i class="fa fa-comment-o"></i>0</a>
                                     </div>
                                 </div>
@@ -753,7 +753,7 @@
                         </div>
                     @empty
                         <div class="col-lg-12 text-center">
-                            <p>No blog posts have been published yet.</p>
+                            <p>Aucun article de blog n'a encore été publié.</p>
                         </div>
                     @endforelse
                 </div>
