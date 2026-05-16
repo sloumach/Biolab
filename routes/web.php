@@ -3,6 +3,7 @@
 use App\Http\Controllers\Admin\AppointmentController as AdminAppointmentController;
 use App\Http\Controllers\Admin\AuthController as AdminAuthController;
 use App\Http\Controllers\Admin\BlogController as AdminBlogController;
+use App\Http\Controllers\Admin\DashboardController as AdminDashboardController;
 use App\Http\Controllers\AppointmentController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\HomeController;
@@ -15,11 +16,7 @@ Route::post('/appointment', [AppointmentController::class, 'store'])
     ->name('appointment.store');
 Route::view('/about', 'about')->name('about');
 Route::get('/blogs/{blog}', [BlogController::class, 'show'])->name('blog.single');
-Route::get('/blog-single', function () {
-    $blog = \App\Models\Blog::latest()->firstOrFail();
-
-    return redirect()->route('blog.single', $blog);
-});
+Route::get('/blog-single', [BlogController::class, 'latest']);
 
 Route::prefix('admin')->name('admin.')->group(function () {
     Route::middleware('guest')->group(function () {
@@ -32,7 +29,7 @@ Route::prefix('admin')->name('admin.')->group(function () {
     Route::post('/logout', [AdminAuthController::class, 'logout'])->name('logout');
 
     Route::middleware(['auth', 'admin'])->group(function () {
-        Route::get('/', fn () => redirect()->route('admin.appointments.index'))->name('home');
+        Route::get('/', [AdminDashboardController::class, 'index'])->name('home');
         Route::get('/appointments', [AdminAppointmentController::class, 'index'])->name('appointments.index');
         Route::patch('/appointments/{appointment}/status', [AdminAppointmentController::class, 'updateStatus'])
             ->name('appointments.status');
