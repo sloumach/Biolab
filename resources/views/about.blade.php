@@ -11,20 +11,7 @@
         @include('partials.styles')
     </head>
     <body>
-        <!-- Preloader -->
-        <div class="preloader clock text-center">
-            <div class="labfloxLoader">
-                <div class="loaderO">
-                    <span>L</span>
-                    <span>A</span>
-                    <span>B</span>
-                    <span>F</span>
-                    <span>L</span>
-                    <span>O</span>
-                    <span>X</span>
-                </div>
-            </div>
-        </div>
+        @include('partials.preloader')
 
         @include('partials.header')
 
