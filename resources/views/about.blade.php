@@ -146,7 +146,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="tw-stretch-element-inside-column imgDiv3 text-left">
-                            <img src="biolab_assets/images/about/1.jpg" alt="Labflox"/>
+                            <img src="biolab_assets/images/about/1.webp" alt="Labflox"/>
                         </div>
                     </div>
                     <div class="col-lg-6">
