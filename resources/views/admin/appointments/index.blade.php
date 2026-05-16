@@ -15,7 +15,6 @@
             <a class="btn light" href="{{ route('admin.appointments.index') }}">All</a>
             <a class="btn light" href="{{ route('admin.appointments.index', ['status' => 'pending']) }}">Pending</a>
             <a class="btn light" href="{{ route('admin.appointments.index', ['status' => 'accepted']) }}">Accepted</a>
-            <a class="btn light" href="{{ route('admin.appointments.index', ['status' => 'refused']) }}">Refused</a>
         </div>
 
         <table>

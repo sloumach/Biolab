@@ -20,6 +20,7 @@
                     <th>Category</th>
                     <th>Latest</th>
                     <th>Created</th>
+                    <th>Actions</th>
                 </tr>
             </thead>
             <tbody>
@@ -39,10 +40,20 @@
                         <td>{{ $blog->category }}</td>
                         <td>{{ $blog->latest ? 'Yes' : 'No' }}</td>
                         <td>{{ $blog->created_at?->format('Y-m-d H:i') }}</td>
+                        <td>
+                            <div class="actions">
+                                <a href="{{ route('admin.blogs.edit', $blog) }}" class="btn secondary">Edit</a>
+                                <form method="post" action="{{ route('admin.blogs.destroy', $blog) }}" onsubmit="return confirm('Delete this blog?');">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button type="submit" class="btn danger">Delete</button>
+                                </form>
+                            </div>
+                        </td>
                     </tr>
                 @empty
                     <tr>
-                        <td colspan="5">No blogs yet.</td>
+                        <td colspan="6">No blogs yet.</td>
                     </tr>
                 @endforelse
             </tbody>

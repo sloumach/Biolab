@@ -30,6 +30,12 @@ class AppointmentController extends Controller
             'status' => ['required', Rule::in(['accepted', 'refused'])],
         ]);
 
+        if ($validated['status'] === 'refused') {
+            $appointment->delete();
+
+            return back()->with('success', 'Appointment refused and deleted.');
+        }
+
         $appointment->update($validated);
 
         return back()->with('success', 'Appointment status updated.');

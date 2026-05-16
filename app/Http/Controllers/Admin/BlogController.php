@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\Blog;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use Illuminate\View\View;
 
 class BlogController extends Controller
@@ -22,15 +23,15 @@ class BlogController extends Controller
         return view('admin.blogs.create');
     }
 
+    public function edit(Blog $blog): View
+    {
+        return view('admin.blogs.edit', compact('blog'));
+    }
+
     public function store(Request $request): RedirectResponse
     {
-        $validated = $request->validate([
-            'title' => ['required', 'string', 'max:255'],
-            'content' => ['required', 'string'],
-            'category' => ['required', 'string', 'max:100'],
-            'image' => ['nullable', 'image', 'max:2048'],
-            'latest' => ['nullable', 'boolean'],
-        ]);
+        $validated = $this->validateBlog($request);
+        $validated['latest'] = $request->boolean('latest');
 
         if ($request->hasFile('image')) {
             $validated['image_path'] = $request->file('image')->store('blogs', 'public');
@@ -41,5 +42,50 @@ class BlogController extends Controller
         Blog::create($validated);
 
         return redirect()->route('admin.blogs.index')->with('success', 'Blog created.');
+    }
+
+    public function update(Request $request, Blog $blog): RedirectResponse
+    {
+        $validated = $this->validateBlog($request);
+        $validated['latest'] = $request->boolean('latest');
+
+        if ($request->hasFile('image')) {
+            if ($blog->image_path) {
+                Storage::disk('public')->delete($blog->image_path);
+            }
+
+            $validated['image_path'] = $request->file('image')->store('blogs', 'public');
+        }
+
+        unset($validated['image']);
+
+        $blog->update($validated);
+
+        return redirect()->route('admin.blogs.index')->with('success', 'Blog updated.');
+    }
+
+    public function destroy(Blog $blog): RedirectResponse
+    {
+        if ($blog->image_path) {
+            Storage::disk('public')->delete($blog->image_path);
+        }
+
+        $blog->delete();
+
+        return redirect()->route('admin.blogs.index')->with('success', 'Blog deleted.');
+    }
+
+    /**
+     * @return array<string, mixed>
+     */
+    private function validateBlog(Request $request): array
+    {
+        return $request->validate([
+            'title' => ['required', 'string', 'max:255'],
+            'content' => ['required', 'string'],
+            'category' => ['required', 'string', 'max:100'],
+            'image' => ['nullable', 'image', 'max:2048'],
+            'latest' => ['nullable', 'boolean'],
+        ]);
     }
 }

@@ -36,5 +36,8 @@ Route::prefix('admin')->name('admin.')->group(function () {
         Route::get('/blogs', [AdminBlogController::class, 'index'])->name('blogs.index');
         Route::get('/blogs/create', [AdminBlogController::class, 'create'])->name('blogs.create');
         Route::post('/blogs', [AdminBlogController::class, 'store'])->name('blogs.store');
+        Route::get('/blogs/{blog}/edit', [AdminBlogController::class, 'edit'])->name('blogs.edit');
+        Route::put('/blogs/{blog}', [AdminBlogController::class, 'update'])->name('blogs.update');
+        Route::delete('/blogs/{blog}', [AdminBlogController::class, 'destroy'])->name('blogs.destroy');
     });
 });

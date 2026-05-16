@@ -32,6 +32,7 @@ class AppServiceProvider extends ServiceProvider
             return [
                 Limit::perMinute(5)->by($request->ip()),
                 Limit::perHour(20)->by($emailKey),
+                Limit::perDay(2)->by('appointments-daily:'.$emailKey),
             ];
         });
 
