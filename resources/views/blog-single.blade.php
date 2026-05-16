@@ -25,33 +25,7 @@
                 </div>
             </div>
         </div>
-        <!-- Header Start -->
-        <header class="header01 isSticky">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="navArea">
-                            <div class="logo logo--large">
-                                <a href="{{ route('home') }}"><img src="{{ asset('biolab_assets/images/biolab-logo.png') }}" alt="Labflox"/></a>
-                            </div>
-                            <nav class="mainMenu">
-
-                            </nav>
-                            <div class="accessNav">
-                                <div class="phoneCall">
-                                    <i class="fa fa-phone"></i>
-                                    <span>24/7 Emergency Phone</span>
-                                    <h6>+36 55 540 069</h6>
-                                </div>
-                                <a href="{{ route('appointment') }}" class="lab_btn lightHover requestBTN"><span><i class="fa fa-calendar-plus-o"></i>Request Appointment</span></a>
-                                <a href="javascript:void(0);" class="menuBtn"><span><i class="fa fa-bars"></i>Menu</span></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <!-- Header End -->
+        @include('partials.header')
 
         <!-- Page Banner Start -->
         <section class="pageBanner">
@@ -112,12 +86,12 @@
                     </div>
                     <div class="col-lg-4">
                         <div class="sidebar">
-                            <aside class="widget search-widget">
+                            {{-- <aside class="widget search-widget">
                                 <form method="get" action="#" class="searchForm">
                                     <input type="search" name="s" placeholder="Search"/>
                                     <button type="submit"><i class="fa fa-search"></i></button>
                                 </form>
-                            </aside>
+                            </aside> --}}
                             <aside class="widget">
                                 <h3 class="widgetTitle">Latest Post</h3>
                                 <div class="latestPost">
@@ -132,7 +106,7 @@
                                     @endforelse
                                 </div>
                             </aside>
-                            <aside class="widget">
+                            {{-- <aside class="widget">
                                 <h3 class="widgetTitle">Categories</h3>
                                 <ul>
                                     @forelse ($categories as $category)
@@ -141,15 +115,15 @@
                                         <li><a href="#">No categories</a></li>
                                     @endforelse
                                 </ul>
-                            </aside>
-                            <aside class="widget">
+                            </aside> --}}
+                            {{-- <aside class="widget">
                                 <h3 class="widgetTitle">Tags</h3>
                                 <div class="tagcloud">
                                     @foreach ($categories as $category)
                                         <a href="#">{{ $category }}</a>
                                     @endforeach
                                 </div>
-                            </aside>
+                            </aside> --}}
                         </div>
                     </div>
                 </div>
