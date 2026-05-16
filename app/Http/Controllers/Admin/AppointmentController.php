@@ -33,11 +33,11 @@ class AppointmentController extends Controller
         if ($validated['status'] === 'refused') {
             $appointment->delete();
 
-            return back()->with('success', 'Appointment refused and deleted.');
+            return back()->with('success', 'Le rendez-vous a été refusé et supprimé.');
         }
 
         $appointment->update($validated);
 
-        return back()->with('success', 'Appointment status updated.');
+        return back()->with('success', 'Le statut du rendez-vous a été mis à jour.');
     }
 }

@@ -41,7 +41,7 @@ class BlogController extends Controller
 
         Blog::create($validated);
 
-        return redirect()->route('admin.blogs.index')->with('success', 'Blog created.');
+        return redirect()->route('admin.blogs.index')->with('success', 'L’article a été créé.');
     }
 
     public function update(Request $request, Blog $blog): RedirectResponse
@@ -61,7 +61,7 @@ class BlogController extends Controller
 
         $blog->update($validated);
 
-        return redirect()->route('admin.blogs.index')->with('success', 'Blog updated.');
+        return redirect()->route('admin.blogs.index')->with('success', 'L’article a été mis à jour.');
     }
 
     public function destroy(Blog $blog): RedirectResponse
@@ -72,7 +72,7 @@ class BlogController extends Controller
 
         $blog->delete();
 
-        return redirect()->route('admin.blogs.index')->with('success', 'Blog deleted.');
+        return redirect()->route('admin.blogs.index')->with('success', 'L’article a été supprimé.');
     }
 
     /**

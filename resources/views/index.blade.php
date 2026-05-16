@@ -715,7 +715,7 @@
                                     </div>
                                     <div class="niMeta">
                                         <span><i class="fa fa-tags"></i><a href="javascript:void(0);">{{ $blog->category }}</a></span>
-                                        <span><i class="fa fa-user"></i><a href="javascript:void(0);">Admin</a></span>
+                                        <span><i class="fa fa-user"></i><a href="javascript:void(0);">Administrateur</a></span>
                                     </div>
                                     <h3><a href="{{ route('blog.single', $blog) }}">{{ $blog->title }}</a></h3>
                                     <div class="blogFooter clearfix">

@@ -2,8 +2,8 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="Creative Agency Responsive HTML5 Template. Built with Bootstrap, HTML5, CSS3 and jQuery.">
-        <meta name="keywords" content="HTML, CSS, JavaScript, jQuery, Animation, Bootstrap, Font Awesome, Revolution Slider, Labflox, Portfolio">
+        <meta name="description" content="Laboratoire Biolab spécialisé dans les services de diagnostic, la recherche et les analyses médicales.">
+        <meta name="keywords" content="laboratoire, analyses, diagnostic, recherche, Biolab">
         <meta name="author" content="Themewar">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Biolab - À propos</title>

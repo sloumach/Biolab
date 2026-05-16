@@ -31,15 +31,15 @@
                                         <!--<i class="laf-CaWRfT01"></i>-->
                                         <img src="{{ asset('biolab_assets/images/icons/1.png') }}" alt=""/>
                                         <h3>
-                                            Get latest updates Subscribe
-                                            to Our Newsletter
+                                            Recevez les dernières actualités
+                                            de notre laboratoire
                                         </h3>
                                     </div>
                                 </div>
                                 <div class="col-lg-7">
                                     <form method="post" action="#">
-                                        <input type="email" name="email" placeholder="Your Mail Address"/>
-                                        <button type="submit">Subscribe Now</button>
+                                        <input type="email" name="email" placeholder="Votre adresse e-mail"/>
+                                        <button type="submit">S'abonner</button>
                                     </form>
                                 </div>
                             </div>
@@ -117,7 +117,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-6">
-                                    <div class="siteInfo">©Abdessalem Ben Chika, All rights reserved.</div>
+                                    <div class="siteInfo">©Abdessalem Ben Chika, tous droits réservés.</div>
                                 </div>
                             </div>
                         </div>

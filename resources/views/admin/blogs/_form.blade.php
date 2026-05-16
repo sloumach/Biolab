@@ -4,10 +4,10 @@
         @method($method)
     @endisset
 
-    <label for="title">Title</label>
+    <label for="title">Titre</label>
     <input id="title" type="text" name="title" value="{{ old('title', $blog->title ?? '') }}" required>
 
-    <label for="category">Category</label>
+    <label for="category">Catégorie</label>
     <input id="category" type="text" name="category" value="{{ old('category', $blog->category ?? '') }}" required>
 
     <label for="image">Image</label>
@@ -20,12 +20,12 @@
     @endisset
     <input id="image" type="file" name="image" accept="image/*">
 
-    <label for="content">Content</label>
+    <label for="content">Contenu</label>
     <textarea id="content" name="content" required>{{ old('content', $blog->content ?? '') }}</textarea>
 
     <label style="font-weight: 400;">
         <input type="checkbox" name="latest" value="1" @checked(old('latest', $blog->latest ?? false)) style="width: auto;">
-        Mark as latest
+        Marquer comme récent
     </label>
 
     <button type="submit" class="btn">{{ $submitLabel }}</button>

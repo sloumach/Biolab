@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>@yield('title', 'Admin') - Biolab</title>
+        <title>@yield('title', 'Administration') - Biolab</title>
         <style>
             body { margin: 0; font-family: Arial, sans-serif; background: #f5f7fb; color: #172033; }
             a { color: #0b7285; text-decoration: none; }
@@ -35,14 +35,14 @@
     </head>
     <body>
         <header class="topbar">
-            <strong>Biolab Admin</strong>
+            <strong>Administration Biolab</strong>
             @auth
                 <nav class="nav">
-                    <a href="{{ route('admin.appointments.index') }}">Appointments</a>
-                    <a href="{{ route('admin.blogs.index') }}">Blogs</a>
+                    <a href="{{ route('admin.appointments.index') }}">Rendez-vous</a>
+                    <a href="{{ route('admin.blogs.index') }}">Articles</a>
                     <form method="post" action="{{ route('admin.logout') }}">
                         @csrf
-                        <button type="submit" class="logout">Logout</button>
+                        <button type="submit" class="logout">Déconnexion</button>
                     </form>
                 </nav>
             @endauth

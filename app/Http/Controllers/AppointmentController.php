@@ -12,6 +12,6 @@ class AppointmentController extends Controller
     {
         Appointment::create($request->validated());
 
-        return back()->with('success', 'Your appointment request has been saved.');
+        return back()->with('success', 'Votre demande de rendez-vous a été enregistrée.');
     }
 }

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="Creative Agency Responsive HTML5 Template. Built with Bootstrap, HTML5, CSS3 and jQuery.">
-        <meta name="keywords" content="HTML, CSS, JavaScript, jQuery, Animation, Bootstrap, Font Awesome, Revolution Slider, Labflox, Portfolio">
+        <meta name="description" content="Article du laboratoire Biolab sur les analyses, le diagnostic et la recherche médicale.">
+        <meta name="keywords" content="blog, laboratoire, analyses, diagnostic, recherche, Biolab">
         <meta name="author" content="Themewar">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{ $blog->title }} - Biolab</title>
@@ -36,7 +36,7 @@
                             <h5>{{ $blog->category }}</h5>
                             <h2>{{ $blog->title }}</h2>
                             <div class="pageBreadCum">
-                                <a href="{{ route('home') }}">Home</a>
+                                <a href="{{ route('home') }}">Accueil</a>
                                 <i class="fa fa-angle-right"></i>
                                 <span>Blog</span>
                             </div>
@@ -62,8 +62,8 @@
                             </div>
                             <div class="niMeta">
                                 <span><i class="fa fa-tags"></i><a href="javascript:void(0);">{{ $blog->category }}</a></span>
-                                <span><i class="fa fa-user"></i><a href="javascript:void(0);">Admin</a></span>
-                                <span><i class="fa fa-comment"></i><a href="javascript:void(0);">0 Comments</a></span>
+                                <span><i class="fa fa-user"></i><a href="javascript:void(0);">Administrateur</a></span>
+                                <span><i class="fa fa-comment"></i><a href="javascript:void(0);">0 commentaire</a></span>
                             </div>
                             <h2 class="post-title">{{ $blog->title }}</h2>
                             <div class="newsContent clearfix">
@@ -73,12 +73,12 @@
                                 <div class="row">
                                     <div class="col-lg-8">
                                         <div class="tagsArea">
-                                            <span>Tags:</span>
+                                            <span>Étiquettes :</span>
                                             <a href="#">{{ $blog->category }}</a>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 clearfix">
-                                        <a href="#" class="sharePost pull-right"><i class="fa fa-share-alt"></i>Share</a>
+                                        <a href="#" class="sharePost pull-right"><i class="fa fa-share-alt"></i>Partager</a>
                                     </div>
                                 </div>
                             </div>
@@ -88,12 +88,12 @@
                         <div class="sidebar">
                             {{-- <aside class="widget search-widget">
                                 <form method="get" action="#" class="searchForm">
-                                    <input type="search" name="s" placeholder="Search"/>
+                                    <input type="search" name="s" placeholder="Rechercher"/>
                                     <button type="submit"><i class="fa fa-search"></i></button>
                                 </form>
                             </aside> --}}
                             <aside class="widget">
-                                <h3 class="widgetTitle">Latest Post</h3>
+                                <h3 class="widgetTitle">Articles récents</h3>
                                 <div class="latestPost">
                                     @forelse ($latestBlogs as $latestBlog)
                                         <div class="lpSingle">
@@ -102,22 +102,22 @@
                                             <span>{{ $latestBlog->created_at->format('F d, Y') }}</span>
                                         </div>
                                     @empty
-                                        <p>No other posts yet.</p>
+                                        <p>Aucun autre article pour le moment.</p>
                                     @endforelse
                                 </div>
                             </aside>
                             {{-- <aside class="widget">
-                                <h3 class="widgetTitle">Categories</h3>
+                                <h3 class="widgetTitle">Catégories</h3>
                                 <ul>
                                     @forelse ($categories as $category)
                                         <li><a href="#">{{ $category }}</a></li>
                                     @empty
-                                        <li><a href="#">No categories</a></li>
+                                        <li><a href="#">Aucune catégorie</a></li>
                                     @endforelse
                                 </ul>
                             </aside> --}}
                             {{-- <aside class="widget">
-                                <h3 class="widgetTitle">Tags</h3>
+                                <h3 class="widgetTitle">Étiquettes</h3>
                                 <div class="tagcloud">
                                     @foreach ($categories as $category)
                                         <a href="#">{{ $category }}</a>

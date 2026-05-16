@@ -1,21 +1,21 @@
 @extends('admin.layout')
 
-@section('title', 'Edit Blog')
+@section('title', 'Modifier un article')
 
 @section('content')
     <div class="panel">
         <div class="header-row">
             <div>
-                <h1>Edit Blog</h1>
-                <p>Update this public article.</p>
+                <h1>Modifier un article</h1>
+                <p>Mettez à jour cet article public.</p>
             </div>
-            <a href="{{ route('admin.blogs.index') }}" class="btn light">Back</a>
+            <a href="{{ route('admin.blogs.index') }}" class="btn light">Retour</a>
         </div>
 
         @include('admin.blogs._form', [
             'action' => route('admin.blogs.update', $blog),
             'method' => 'PUT',
-            'submitLabel' => 'Update Blog',
+            'submitLabel' => 'Mettre à jour l’article',
         ])
     </div>
 @endsection
