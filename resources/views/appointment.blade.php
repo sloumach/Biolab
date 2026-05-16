@@ -126,7 +126,7 @@
                     </div>
                     <div class="col-md-6 col-lg-5">
                         <div class="imgDiv">
-                            <img src="biolab_assets/images/home1/2.png" alt="Labflox"/>
+                            <img src="biolab_assets/images/home1/2.png" alt="Biolab"/>
                         </div>
                     </div>
                 </div>

@@ -71,7 +71,7 @@
                                     </ul>
                                     <div class="abcAuthor clearfix">
                                         <div class="abcIMG">
-                                            <img src="biolab_assets/images/author/6.jpg" alt="Labflox">
+                                            <img src="biolab_assets/images/author/6.jpg" alt="Biolab">
                                         </div>
                                         <img class="signatureImage" src="biolab_assets/images/signature_2.png" alt="">
                                     </div>
@@ -89,7 +89,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="imgDiv2 text-right">
-                            <img src="biolab_assets/images/home2/1.png" alt="Labflox">
+                            <img src="biolab_assets/images/home2/1.png" alt="Biolab">
                         </div>
                     </div>
                 </div>
@@ -146,7 +146,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="tw-stretch-element-inside-column imgDiv3 text-left">
-                            <img src="biolab_assets/images/about/1.webp" alt="Labflox"/>
+                            <img src="biolab_assets/images/about/1.webp" alt="Biolab"/>
                         </div>
                     </div>
                     <div class="col-lg-6">
