@@ -10,15 +10,15 @@
                                 </div>
                                 <div class="cwcInfo">
                                     <i class="laf-y4LP01"></i>
-                                    +91 458 654 528
+                                    +216 77 273 000
                                 </div>
                                 <div class="cwcInfo">
                                     <i class="laf-BqBcxz01"></i>
-                                    <a href="javascript:void(0);">info@example.com</a>
+                                    <a href="javascript:void(0);">direction@biolab.tn</a>
                                 </div>
                                 <div class="cwcInfo">
                                     <i class="laf-A8AIr201"></i>
-                                    60 East 65th Street, NY
+                                    Immeuble ibn el jazzar, Rue ibrhim ibn el aghlab, 3100 Kairouan, Tunisie
                                 </div>
                             </div>
                         </aside>

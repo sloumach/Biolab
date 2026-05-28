@@ -56,12 +56,12 @@
                                         <li>Un accompagnement pour le diagnostic et le suivi</li>
                                         <li>D'autres offres de santé complémentaires</li>
                                     </ul>
-                                    <div class="abcAuthor clearfix">
+                                    {{-- <div class="abcAuthor clearfix">
                                         <div class="abcIMG">
                                             <img src="biolab_assets/images/author/6.jpg" alt="Biolab">
                                         </div>
                                         <img class="signatureImage" src="biolab_assets/images/signature_2.png" alt="">
-                                    </div>
+                                    </div> --}}
                                 </div>
                                 <div class="col-md-5 col-lg-4">
                                     <div class="expCounter2">
@@ -76,7 +76,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="imgDiv2 text-right">
-                            <img src="biolab_assets/images/home2/1.png" alt="Biolab">
+                            <img src="biolab_assets/images/home2/1.1.webp" alt="Biolab">
                         </div>
                     </div>
                 </div>
@@ -172,7 +172,7 @@
         <!-- Skill Section Start -->
 
         <!-- Team Section Start -->
-        <section class="teamSection">
+        {{-- <section class="teamSection">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -255,7 +255,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- Team Section Start -->
         @include('footer')
 

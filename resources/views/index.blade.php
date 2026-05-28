@@ -442,8 +442,8 @@
                         <div class="serviceLeft">
                             <h2>Le plus grand fournisseur de services de tests de laboratoire spécialisés</h2>
                             <p>Notre équipe qualifiée de médecins et de techniciens <br> vous accompagne avec rigueur. Nous coordonnons <br> des solutions efficaces et adaptées à vos besoins.</p>
-                            <img src="biolab_assets/images/signature.png" alt="Mark Anthony"/>
-                            <h5>Mark Anthony &nbsp;&nbsp;/&nbsp;&nbsp; <span>Directeur</span></h5>
+                            <img src="biolab_assets/images/signature.png" alt="Brahim Lahmer"/>
+                            <h5>Brahim Lahmer &nbsp;&nbsp;/&nbsp;&nbsp; <span>Directeur</span></h5>
                         </div>
                     </div>
                     <div class="col-lg-12 col-xl-7">

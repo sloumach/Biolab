@@ -3190,7 +3190,7 @@
 / 17. Page Banner
 /------------------------------------------------------*/
 .pageBanner {
-    background: url(../images/bg/10.jpg) no-repeat center center/cover;
+    background: url(../images/bg/10.1.webp) no-repeat center center/cover;
     position: relative;
 }
 .pageBanner::before {
