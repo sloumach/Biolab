@@ -39,6 +39,7 @@
             @auth
                 <nav class="nav">
                     <a href="{{ route('admin.appointments.index') }}">Rendez-vous</a>
+                    <a href="{{ route('admin.complaints.index') }}">R&eacute;clamations</a>
                     <a href="{{ route('admin.blogs.index') }}">Articles</a>
                     <form method="post" action="{{ route('admin.logout') }}">
                         @csrf

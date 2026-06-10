@@ -36,6 +36,18 @@ class AppServiceProvider extends ServiceProvider
             ];
         });
 
+        RateLimiter::for('complaints', function (Request $request) {
+            $phone = Str::lower((string) $request->input('phone'));
+            $key = $phone !== ''
+                ? sha1($request->ip().'|'.$phone)
+                : $request->ip();
+
+            return [
+                Limit::perMinute(5)->by($request->ip()),
+                Limit::perHour(10)->by($key),
+            ];
+        });
+
         RateLimiter::for('admin-login', function (Request $request) {
             $email = Str::lower((string) $request->input('email'));
             $key = $email !== ''
