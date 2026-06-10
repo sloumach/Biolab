@@ -643,7 +643,7 @@
                     <div class="col-lg-8 col-xl-7">
                         <div class="wcuContent">
                             <h5 class="secSubTitle heebo">Pourquoi nous choisir</h5>
-                            <h2 class="secTitle">Le partenaire de confiance en recherche de laboratoire</h2>
+                            <h2 class="secTitle">Les partenaires de confiance à l'étranger : Biomnis / Cerba</h2>
                             <p>
                                 Nous mettons à votre service une expertise solide, des méthodes éprouvées
                                 et une équipe engagée pour garantir des résultats fiables et utiles à vos décisions.
@@ -721,7 +721,46 @@
             </div>
         </section>
         <!-- Blog Section End -->
+                <!-- Contact Map Section Start -->
+        <section class="mapSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="contactInfo">
 
+                            <div class="iconBox04">
+                                <i class="laf-P86WG101"></i>
+                                <h5>Appelez-nous:</h5>
+                                <p>+216 77 273 000</p>
+                                <p>+216 95 100 707</p>
+                            </div>
+
+                            <div class="iconBox04 ib04Address">
+                                <i class="laf-A8AIr201"></i>
+                                <h5>Notre Adresse:</h5>
+                                <p>
+                                    Immeuble ibn el jazzar,
+                                    Rue ibrhim ibn el aghlab,
+                                    3100 Kairouan, Tunisie
+                                </p>
+                            </div>
+
+                            <div class="iconBox04">
+                                <i class="laf-lHEkBa01"></i>
+                                <h5>Horaires:</h5>
+                                <p>07.00 à 15.00 du lundi au vendredi</p>
+                                <p>07.00 à 14.00 le samedi</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1620.3767542803257!2d10.090552169619189!3d35.683070900000025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fdc58bec525867%3A0x9a5dc2d761ea0fc2!2sLaboratoire%20d&#39;analyses%20Brahim%20Lahmar!5e0!3m2!1sfr!2stn!4v1781081831173!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Map Section End -->
         @include('footer')
 
         <!-- Back To Top -->
