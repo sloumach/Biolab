@@ -512,7 +512,7 @@
                     <div class="col-md-6 col-lg-3">
                         <div class="fact01 text-center">
                             <i class="laf-lHEkBa01"></i>
-                            <h2 class="heebo counters" data-count="25" data-suffix=" M" data-format="plain">25 M</h2>
+                            <h2 class="heebo counters" data-count="500" data-suffix=" K" data-format="plain">500 K</h2>
                             <h6 class="heebo">Tests réalisés chaque année</h6>
                         </div>
                     </div>
@@ -575,7 +575,7 @@
                         <div class="aboutImg text-right">
                             <img src="biolab_assets/images/home1/1.1.webp" alt=""/>
                             <div class="expCounter">
-                                <span class="counters" data-count="25" data-suffix="" data-format="plain">05</span>
+                                <span class="counters" data-count="7" data-suffix="" data-format="plain">01</span>
                                 <span>Années d'expérience</span>
                             </div>
                         </div>

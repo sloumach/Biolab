@@ -18,6 +18,7 @@
                         </div>
                         <a href="{{ route('appointment') }}" class="lab_btn lightHover requestBTN"><span><i class="fa fa-calendar-plus-o"></i>Prendre rendez-vous</span></a>
                         <a href="javascript:void(0);" class="lab_btn lightHover requestBTN" data-toggle="modal" data-target="#complaintModal"><span><i class="fa fa-comment-o"></i>R&eacute;clamation</span></a>
+                        <a href="javascript:void(0);" class="lab_btn lightHover requestBTN" data-toggle="modal" data-target="#certificatesModal"><span><i class="fa fa-file-pdf-o"></i>Certificats</span></a>
                         <a href="javascript:void(0);" class="menuBtn"><span><i class="fa fa-bars"></i>Menu</span></a>
                     </div>
                 </div>
@@ -68,6 +69,26 @@
                     <button type="submit" class="btn btn-primary">Envoyer</button>
                 </div>
             </form>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="certificatesModal" tabindex="-1" role="dialog" aria-labelledby="certificatesModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-xl modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="certificatesModalTitle">Certificats</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fermer">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="padding: 0;">
+                <iframe src="{{ asset('documents/iso.pdf') }}" title="Certificats" style="width: 100%; height: 75vh; border: 0;"></iframe>
+            </div>
+            <div class="modal-footer">
+                <a href="{{ asset('documents/iso.pdf') }}" class="btn btn-primary" target="_blank" rel="noopener">Ouvrir dans un nouvel onglet</a>
+                <button type="button" class="btn btn-light" data-dismiss="modal">Fermer</button>
+            </div>
         </div>
     </div>
 </div>
