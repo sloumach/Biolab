@@ -17,7 +17,7 @@
                             <h6>+216 77 273 000</h6>
                         </div>
                         <a href="{{ route('appointment') }}" class="lab_btn lightHover requestBTN"><span><i class="fa fa-calendar-plus-o"></i>Prendre rendez-vous</span></a>
-                        <a href="javascript:void(0);" class="lab_btn lightHover requestBTN" data-toggle="modal" data-target="#complaintModal"><span><i class="fa fa-comment-o"></i>R&eacute;clamation</span></a>
+                        <a href="javascript:void(0);" class="lab_btn lightHover requestBTN" data-toggle="modal" data-target="#complaintModal"><span><i class="fa fa-comment-o"></i>R&eacute;clamations</span></a>
                         <a href="javascript:void(0);" class="lab_btn lightHover requestBTN" data-toggle="modal" data-target="#certificatesModal"><span><i class="fa fa-file-pdf-o"></i>Certificats</span></a>
                         <a href="javascript:void(0);" class="menuBtn"><span><i class="fa fa-bars"></i>Menu</span></a>
                     </div>

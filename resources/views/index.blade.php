@@ -64,7 +64,7 @@
                                 data-width="['630','630','95%','95%']"
                                 data-height="none"
                                 data-whitespace="normal"
-                                data-color="['#FFFFFF','#FFFFFF','#FFFFFF','#FFFFFF']"
+                                data-color="['#7A2A84','#7A2A84','#7A2A84','#7A2A84']"
 
                                 data-type="text"
                                 data-responsive_offset="off"
@@ -157,7 +157,7 @@
                                 ></div>
                         </li>
                         <li data-index="rs-3047" data-transition="random-premium" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="Power3.easeInOut" data-easeout="Power3.easeInOut" data-masterspeed="1000"  data-thumb=""  data-rotate="0"  data-saveperformance="off"  data-title="" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
-                            <img src="biolab_assets/images/slider/11.2.webp"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+                            <img src="biolab_assets/images/slider/11.2.2.webp"  alt=""  data-bgposition="left center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
                             <div class="tp-caption tp-resizeme heebo"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -200,7 +200,7 @@
                                 data-width="['630','630','95%','95%']"
                                 data-height="none"
                                 data-whitespace="normal"
-                                data-color="['#FFFFFF','#FFFFFF','#FFFFFF','#FFFFFF']"
+                                data-color="['#7A2A84','#7A2A84','#7A2A84','#7A2A84']"
 
                                 data-type="text"
                                 data-responsive_offset="off"
@@ -214,7 +214,7 @@
                                 data-paddingleft="['0','0','0','0']"
                                 data-marginleft="['0','0','0','0']"
 
-                                >Notre laboratoire de diagnostic vise l'excellence</div>
+                                > L'excellence commence par une équipe de professionnels</div>
                             <div class="tp-caption tp-resizeme"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -336,7 +336,7 @@
                                 data-width="['630','630','95%','95%']"
                                 data-height="none"
                                 data-whitespace="normal"
-                                data-color="['#FFFFFF','#FFFFFF','#FFFFFF','#FFFFFF']"
+                                data-color="['#7A2A84','#7A2A84','#7A2A84','#7A2A84']"
 
                                 data-type="text"
                                 data-responsive_offset="off"
@@ -350,7 +350,7 @@
                                 data-paddingleft="['0','0','0','0']"
                                 data-marginleft="['0','0','0','0']"
 
-                                >Notre laboratoire de diagnostic vise l'excellence</div>
+                                >La technologie au service de la précision</div>
                             <div class="tp-caption tp-resizeme"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -543,11 +543,15 @@
                         <div class="aboutContent">
                             <h5 class="secSubTitle heebo">À propos</h5>
                             <h2 class="secTitle">
-                                Nous proposons une recherche de laboratoire de qualité
+                                Nous proposons une large gamme de biomarqueurs.
                             </h2>
                             <p>
-                                Nous sommes spécialisés dans l'analyse des altérations alimentaires et des boissons,
-                                avec une forte expertise sur les moisissures thermorésistantes, les levures et les moisissures résistantes.
+                                Nous réalisons toutes  les analyses de biochimie classique et spécialisée,  sérologies,  hormonolofie,hématologie, microbiologie, auto immunité, biologie moléculaire et de spermiologie
+                                Biochimie classique et spécialisée
+                                Gatro-intestinal
+                                Breath test ( test respiratoire à la urée) en vue de dépistage de l Helicobacter pylori
+                                Endocrinologie
+                                Test au synthène en vue de la exploration de la surrénale
                             </p>
                             <div class="hr"></div>
                             <div class="row mb43">
@@ -609,14 +613,14 @@
                                     <div class="testCatItem">
                                         <i class="laf-F4W0Q01"></i>
                                         <h3 class="heebo">Gastro-intestinal</h3>
-                                        <p>Notre équipe qualifiée vous apporte un accompagnement précis et réactif.</p>
+                                        <p>Breath test ( test respiratoire à la urée) en vue de dépistage de l Helicobacter pylori</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3 noPadding">
                                     <div class="testCatItem">
                                         <i class="laf-GiBYLh01"></i>
                                         <h3 class="heebo">Endocrinologie</h3>
-                                        <p>Notre équipe qualifiée vous apporte un accompagnement précis et réactif.</p>
+                                        <p>Test au synthène en vue de la exploration de la surrénale</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3 noPadding">

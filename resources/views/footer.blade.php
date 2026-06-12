@@ -18,7 +18,7 @@
                                 </div>
                                 <div class="cwcInfo">
                                     <i class="laf-A8AIr201"></i>
-                                    Immeuble ibn el jazzar, Rue ibrhim ibn el aghlab, 3100 Kairouan, Tunisie
+                                    Immeuble ibn el jazzar, Rue ibrahim ibn el aghlab, 3100 Kairouan, Tunisie <br> (à coté centre IRM Liouane)
                                 </div>
                             </div>
                         </aside>
