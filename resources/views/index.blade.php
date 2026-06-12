@@ -606,7 +606,7 @@
                                     <div class="testCatItem">
                                         <i class="laf-DqlwU301"></i>
                                         <h3 class="heebo">Dépistage des infections</h3>
-                                        <p>Notre équipe qualifiée vous apporte un accompagnement précis et réactif.</p>
+                                        <p>Tests pour détecter les infections bactériennes et virales</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3 noPadding">
@@ -627,7 +627,7 @@
                                     <div class="testCatItem">
                                         <i class="laf-Yk7aBo01"></i>
                                         <h3 class="heebo">Santé cardiaque</h3>
-                                        <p>Notre équipe qualifiée vous apporte un accompagnement précis et réactif.</p>
+                                        <p>Des tests spécialisés pour évaluer votre santé cardiovasculaire.</p>
                                     </div>
                                 </div>
                             </div>
