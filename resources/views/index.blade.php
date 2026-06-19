@@ -50,7 +50,7 @@
                                 data-marginleft="['0','0','0','0']"
 
                                 style="background-color: #7A2A84; letter-spacing: -.18px;"
-                                >Des services de diagnostic accessibles</div>
+                                ></div>
                             <div class="tp-caption ws_nowrap heebo"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -186,7 +186,7 @@
                                 data-marginleft="['0','0','0','0']"
 
                                 style="background-color: #7A2A84; letter-spacing: -.18px;"
-                                >Des services de diagnostic accessibles</div>
+                                ></div>
                             <div class="tp-caption ws_nowrap heebo"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -214,7 +214,7 @@
                                 data-paddingleft="['0','0','0','0']"
                                 data-marginleft="['0','0','0','0']"
 
-                                > L'excellence commence par une équipe de professionnels</div>
+                                > L'excellence commence par une équipe compétente et engagée</div>
                             <div class="tp-caption tp-resizeme"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -322,7 +322,7 @@
                                 data-marginleft="['0','0','0','0']"
 
                                 style="background-color: #7A2A84; letter-spacing: -.18px;"
-                                >Des services de diagnostic accessibles</div>
+                                ></div>
                             <div class="tp-caption ws_nowrap heebo"
                                 data-x="['left','left','center','center']"
                                 data-hoffset="['0','0','0','0']"
@@ -456,7 +456,7 @@
                                         <i class="laf-GA9M8J01"></i>
                                         <h3><a>Services de laboratoire</a></h3>
                                         <p>
-                                            Notre équipe de techniciens qualifiés vous accompagne
+                                            Des techniciens rigoureux, compétents et attentifs, qui assurent chaque jour un travail de qualité et précis.
                                         </p>
                                     </div>
                                 </div>
@@ -466,7 +466,7 @@
                                         <i class="laf-Yk7aBo01"></i>
                                         <h3><a>Recherche médicale</a></h3>
                                         <p>
-                                            Notre équipe de techniciens qualifiés vous accompagne
+                                            Un appareillage moderne, performant et régulièrement contôlé, qui garantit des résultats fiables.
                                         </p>
                                     </div>
                                 </div>
@@ -480,16 +480,7 @@
                                         </p>
                                     </div>
                                 </div>
-                                <div class="singleService01">
-                                    <img src="biolab_assets/images/services/1.4.webp" alt=""/>
-                                    <div class="ss01Content">
-                                        <i class="laf-Yk7aBo01"></i>
-                                        <h3><a>Services de laboratoire</a></h3>
-                                        <p>
-                                            Notre équipe de techniciens qualifiés vous accompagne
-                                        </p>
-                                    </div>
-                                </div>
+
                             </div>
                         </div>
                     </div>
@@ -505,8 +496,8 @@
                     <div class="col-md-6 col-lg-3">
                         <div class="fact01 text-center">
                             <i class="laf-GA9M8J01"></i>
-                            <h2 class="heebo counters" data-count="32000" data-suffix="+" data-format="separator">32,000+</h2>
-                            <h6 class="heebo">Services de pathologie</h6>
+                            <h2 class="heebo counters" data-count="1000" data-suffix="+" data-format="separator">1,000+</h2>
+                            <h6 class="heebo">Partenaires scientifiques</h6>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-3">
@@ -526,8 +517,8 @@
                     <div class="col-md-6 col-lg-3">
                         <div class="fact01 text-center">
                             <i class="laf-DqlwU301"></i>
-                            <h2 class="heebo counters" data-count="4.5" data-suffix=" M" data-format="decimal">4.5 M</h2>
-                            <h6 class="heebo">Patients dans le monde</h6>
+                            <h2 class="heebo counters" data-count="20" data-suffix=" K" data-format=" plain ">+ 20 K</h2>
+                            <h6 class="heebo">Patients</h6>
                         </div>
                     </div>
                 </div>
@@ -577,7 +568,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="aboutImg text-right">
-                            <img src="biolab_assets/images/home1/1.1.webp" alt=""/>
+                            <img src="biolab_assets/images/team/brahim.jpg" alt=""/>
                             <div class="expCounter">
                                 <span class="counters" data-count="7" data-suffix="" data-format="plain">01</span>
                                 <span>Années d'expérience</span>
@@ -605,8 +596,8 @@
                                 <div class="col-md-6 col-lg-3 noPadding">
                                     <div class="testCatItem">
                                         <i class="laf-DqlwU301"></i>
-                                        <h3 class="heebo">Dépistage des infections</h3>
-                                        <p>Tests pour détecter les infections bactériennes et virales</p>
+                                        <h3 class="heebo">Tests dynamiques</h3>
+                                        <p>Tests au synthène en vue de la exploration de la surrénale</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3 noPadding">
@@ -619,15 +610,15 @@
                                 <div class="col-md-6 col-lg-3 noPadding">
                                     <div class="testCatItem">
                                         <i class="laf-GiBYLh01"></i>
-                                        <h3 class="heebo">Endocrinologie</h3>
-                                        <p>Test au synthène en vue de la exploration de la surrénale</p>
+                                        <h3 class="heebo">Biologie moléculaire</h3>
+                                        <p>Grâce à la biologie moléculaire, notre laboratoire renforce la fiabilité et la rapidité du diagnostic au service d'une médecine plus précise.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3 noPadding">
                                     <div class="testCatItem">
                                         <i class="laf-Yk7aBo01"></i>
-                                        <h3 class="heebo">Santé cardiaque</h3>
-                                        <p>Des tests spécialisés pour évaluer votre santé cardiovasculaire.</p>
+                                        <h3 class="heebo">Biologie de la reproduction</h3>
+                                        <p>Des tests spécialisés pour évaluer la fertilité et le suivi de la grossesse.</p>
                                     </div>
                                 </div>
                             </div>
@@ -647,7 +638,7 @@
                     <div class="col-lg-8 col-xl-7">
                         <div class="wcuContent">
                             <h5 class="secSubTitle heebo">Pourquoi nous choisir</h5>
-                            <h2 class="secTitle">Les partenaires de confiance à l'étranger : Biomnis / Cerba</h2>
+                            <h2 class="secTitle">Des partenaires de confiance à l'étranger : Biomnis / Cerba</h2>
                             <p>
                                 Nous mettons à votre service une expertise solide, des méthodes éprouvées
                                 et une équipe engagée pour garantir des résultats fiables et utiles à vos décisions.
