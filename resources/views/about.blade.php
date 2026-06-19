@@ -43,18 +43,19 @@
                         <div class="aboutContent2">
                             <h5 class="secSubTitle">À propos</h5>
                             <h2 class="secTitle">
-                                Nous proposons une recherche de laboratoire de qualité
+                                Biolab Kairouan est un laboratoire d'analyse médicales certifié ISO 9001
                             </h2>
                             <p>
-                                Nous sommes spécialisés dans l'analyse des altérations alimentaires et des boissons,
-                                avec une expertise reconnue dans les moisissures thermorésistantes, les levures et les moisissures résistantes.
+                                Fondé en 2019 par Dr Brahim Lahmar, pharmacien biologiste, ancien interne des hôpitaux.
+Notre équipe qualifiée et expérimentée est toujours à la disposition de nos patients et nos partenaires pour vous assurer
+une prise en charge optimale et un meilleur service.
                             </p>
                             <div class="row">
                                 <div class="col-md-7 col-lg-8">
                                     <ul class="listUL">
-                                        <li>Une large gamme d'analyses spécialisées</li>
-                                        <li>Un accompagnement pour le diagnostic et le suivi</li>
-                                        <li>D'autres offres de santé complémentaires</li>
+                                        <li>Chaque prélèvement est réalisé avec rigueur et précision pour garantir la qualité de vos résultats</li>
+                                        <li>Parce qu'un résultat fiable commence par un prélèvement réalisé avec soin</li>
+                                        <li>Une attention particulière est portée à chaque prélèvement pour garantir la qualité et la sécurité</li>
                                     </ul>
                                     {{-- <div class="abcAuthor clearfix">
                                         <div class="abcIMG">
@@ -65,7 +66,7 @@
                                 </div>
                                 <div class="col-md-5 col-lg-4">
                                     <div class="expCounter2">
-                                        <span class="counters" data-count="5" data-suffix="" data-format="leadingzero">05</span>
+                                        <span class="counters" data-count="7" data-suffix="" data-format="leadingzero">7</span>
                                         <span>
                                             Années d'expérience
                                         </span>
@@ -76,7 +77,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="imgDiv2 text-right">
-                            <img src="biolab_assets/images/home2/1.1.webp" alt="Biolab">
+                            <img src="biolab_assets/images/about/33.jpg" alt="Biolab">
                         </div>
                     </div>
                 </div>
@@ -94,14 +95,14 @@
                                 <div class="col-md-6 col-lg-3">
                                     <div class="fact01 text-center">
                                         <i class="laf-GA9M8J01"></i>
-                                        <h2 class="heebo counters" data-count="32000" data-suffix="+" data-format="separator">32,000+</h2>
-                                        <h6 class="heebo">Services de pathologie</h6>
+                                        <h2 class="heebo counters" data-count="1000" data-suffix="+" data-format="separator">1000+</h2>
+                                        <h6 class="heebo">Partenaires scientifiques</h6>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3">
                                     <div class="fact01 text-center">
                                         <i class="laf-lHEkBa01"></i>
-                                        <h2 class="heebo counters" data-count="25" data-suffix=" M" data-format="plain">25 M</h2>
+                                        <h2 class="heebo counters" data-count="500" data-suffix=" K" data-format="plain">500 K</h2>
                                         <h6 class="heebo">Tests réalisés chaque année</h6>
                                     </div>
                                 </div>
@@ -115,7 +116,7 @@
                                 <div class="col-md-6 col-lg-3">
                                     <div class="fact01 text-center">
                                         <i class="laf-DqlwU301"></i>
-                                        <h2 class="heebo counters" data-count="4.5" data-suffix=" M" data-format="decimal">4.5 M</h2>
+                                        <h2 class="heebo counters" data-count="20" data-suffix=" K" data-format="plain">20 K</h2>
                                         <h6 class="heebo">Patients dans le monde</h6>
                                     </div>
                                 </div>
@@ -133,20 +134,20 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="tw-stretch-element-inside-column imgDiv3 text-left">
-                            <img src="biolab_assets/images/about/1.webp" alt="Biolab"/>
+                            <img src="biolab_assets/images/home2/1.1.webp" alt="Biolab"/>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="aboutSkillContent">
                             <h5 class="secSubTitle"><span>Notre différence</span></h5>
                             <h2 class="secTitle">
-                                Nous proposons une recherche de laboratoire de qualité
+                                Nous proposons des analyses de laboratoire fiables et des services de diagnostic de qualité supérieure
                             </h2>
                             <p>
                                 Nous réunissons expertise, méthodes fiables et accompagnement sur mesure
                                 pour produire des résultats clairs, utiles et exploitables.
                             </p>
-                            <div class="singleProgress">
+                            {{-- <div class="singleProgress">
                                 <span>Recherche</span>
                                 <div class="spParent" data-parcent="70">
                                     <div class="spInner"><span></span></div>
@@ -163,7 +164,7 @@
                                 <div class="spParent" data-parcent="60">
                                     <div class="spInner"><span></span></div>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>

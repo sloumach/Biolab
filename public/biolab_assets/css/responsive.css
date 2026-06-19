@@ -720,6 +720,13 @@
     .skillArea{
         padding-left: 0;
     }
+    .partnerLogos{
+        gap: 16px;
+    }
+    .partnerLogoItem{
+        width: 180px;
+        height: 105px;
+    }
     .tmcsItem p{
         width: 100%;
         padding: 0 30px;

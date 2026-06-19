@@ -440,8 +440,8 @@
                 <div class="row">
                     <div class="col-lg-12 col-xl-5 noPaddingLeft">
                         <div class="serviceLeft">
-                            <h2>Le plus grand fournisseur de services de tests de laboratoire spécialisés</h2>
-                            <p>Notre équipe qualifiée de médecins et de techniciens <br> vous accompagne avec rigueur. Nous coordonnons <br> des solutions efficaces et adaptées à vos besoins.</p>
+                            <h2>Un laboratoire moderne au service de la santé de tous</h2>
+                            <p>Nous proposons une large gamme de biomarqueurs. Nous réalisons toutes les analyses de biochimie classique et spécialisée, sérologies, hormonolofie, hématologie, microbiologie, auto immunité, biologie moléculaire et de spermiologie.</p>
                             <img src="biolab_assets/images/signature.png" alt="Brahim Lahmer"/>
                             <h5>Brahim Lahmer &nbsp;&nbsp;/&nbsp;&nbsp; <span>Directeur</span></h5>
                         </div>
@@ -638,33 +638,13 @@
                     <div class="col-lg-8 col-xl-7">
                         <div class="wcuContent">
                             <h5 class="secSubTitle heebo">Pourquoi nous choisir</h5>
-                            <h2 class="secTitle">Des partenaires de confiance à l'étranger : Biomnis / Cerba</h2>
-                            <p>
-                                Nous mettons à votre service une expertise solide, des méthodes éprouvées
-                                et une équipe engagée pour garantir des résultats fiables et utiles à vos décisions.
-                            </p>
-                            <div class="skillArea clearfix">
-                                <div class="singleSkill text-center">
-                                    <div class="skillOne"
-                                         data-values="0.9"
-                                         data-sizes="103"
-                                         data-thicknesss="4"
-                                         data-fills="#7A2A84"
-                                         data-emptyfills="#ebebeb"
-                                         data-linecaps="square"
-                                         ><strong></strong></div>
-                                    <p>Taux de réussite</p>
+                            <h2 class="secTitle">Des partenaires de confiance à l'étranger : <br> Biomnis / Cerba / Eurofins</h2>
+                            <div class="partnerLogos">
+                                <div class="partnerLogoItem">
+                                    <img src="{{ asset('biolab_assets/images/partenaires/partenaire1.jpg') }}" alt="Biomnis">
                                 </div>
-                                <div class="singleSkill text-center">
-                                    <div class="skillOne"
-                                         data-values="0.8"
-                                         data-sizes="103"
-                                         data-thicknesss="4"
-                                         data-fills="#7A2A84"
-                                         data-emptyfills="#ebebeb"
-                                         data-linecaps="square"
-                                         ><strong></strong></div>
-                                    <p>Tests réalisés</p>
+                                <div class="partnerLogoItem">
+                                    <img src="{{ asset('biolab_assets/images/partenaires/partenaire2.jpg') }}" alt="Cerba">
                                 </div>
                             </div>
                         </div>

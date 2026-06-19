@@ -352,7 +352,7 @@ a:focus, input:focus, select:focus, button:focus, textarea:focus{
     margin: auto 0;
 }
 .secTitle{
-    font-size: 48px;
+    font-size: 36px;
     line-height: 60px;
     letter-spacing: 0;
 }
