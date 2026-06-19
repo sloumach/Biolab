@@ -21,8 +21,8 @@
                 <div class="row">
                     <div class="col-md-9 col-lg-7 col-xl-6">
                         <div class="pageBannerContent">
-                            <h5>À propos</h5>
-                            <h2>Une référence en recherche scientifique et en médecine</h2>
+                            <h5 style="visibility:hidden;">À propos</h5>
+                            <h2 style="visibility:hidden;">Une référence en recherche scientifique et en médecine</h2>
                             <div class="pageBreadCum">
                                 <a href="{{ route('home') }}">Accueil</a>
                                 <i class="fa fa-angle-right"></i>
