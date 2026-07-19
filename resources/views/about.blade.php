@@ -43,12 +43,10 @@
                         <div class="aboutContent2">
                             <h5 class="secSubTitle">À propos</h5>
                             <h2 class="secTitle">
-                                Biolab Kairouan est un laboratoire d'analyse médicales certifié ISO 9001
+                                Biolab Kairouan est un laboratoire d'analyse médicales certifié ISO 9001:2015
                             </h2>
                             <p>
-                                Fondé en 2019 par Dr Brahim Lahmar, pharmacien biologiste, ancien interne des hôpitaux.
-Notre équipe qualifiée et expérimentée est toujours à la disposition de nos patients et nos partenaires pour vous assurer
-une prise en charge optimale et un meilleur service.
+                               Au laboratoire, tout commence par un acceuil chaleureux, une écoute attentive et un accompagnement de qualité.
                             </p>
                             <div class="row">
                                 <div class="col-md-7 col-lg-8">
@@ -134,7 +132,7 @@ une prise en charge optimale et un meilleur service.
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="tw-stretch-element-inside-column imgDiv3 text-left">
-                            <img src="biolab_assets/images/home2/1.1.webp" alt="Biolab"/>
+                            <img src="biolab_assets/images/about/2.webp" alt="Biolab"/>
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -144,8 +142,7 @@ une prise en charge optimale et un meilleur service.
                                 Nous proposons des analyses de laboratoire fiables et des services de diagnostic de qualité supérieure
                             </h2>
                             <p>
-                                Nous réunissons expertise, méthodes fiables et accompagnement sur mesure
-                                pour produire des résultats clairs, utiles et exploitables.
+                                Au laboratoire, nous accordons une attention particulière à chaque prélèvement, car la qualité commence dés le premier geste.
                             </p>
                             {{-- <div class="singleProgress">
                                 <span>Recherche</span>

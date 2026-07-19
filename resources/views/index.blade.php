@@ -440,10 +440,10 @@
                 <div class="row">
                     <div class="col-lg-12 col-xl-5 noPaddingLeft">
                         <div class="serviceLeft">
-                            <h2>Un laboratoire moderne au service de la santé de tous</h2>
-                            <p>Nous proposons une large gamme de biomarqueurs. Nous réalisons toutes les analyses de biochimie classique et spécialisée, sérologies, hormonolofie, hématologie, microbiologie, auto immunité, biologie moléculaire et de spermiologie.</p>
+                            <h2>Un laboratoire moderne au service de la santé</h2>
+                            <p>Biolab Kairouan est un laboratoire d'analyse médicale polyvalent certifié iso 9001:2015 fondé en 2019 par Dr Brahim Lahmar, PHARMACIEN BIOLOGISTE, ancien interne des Hôpitaux. Notre équipe qualifiée et expériementée est toujours à la disposition de nos patients et nos partenaires pour vous assurer une prise en charge optimale et un meilleur service.</p>
                             <img src="biolab_assets/images/signature.png" alt="Brahim Lahmer"/>
-                            <h5>Brahim Lahmer &nbsp;&nbsp;/&nbsp;&nbsp; <span>Directeur</span></h5>
+                            <h5>Dr. Brahim Lahmer &nbsp;&nbsp;/&nbsp;&nbsp; <span>Directeur du laboratoire d'analyses médicales Biolab Kairouan.</span></h5>
                         </div>
                     </div>
                     <div class="col-lg-12 col-xl-7">
@@ -454,7 +454,7 @@
                                     <img src="biolab_assets/images/services/1.1.webp" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-GA9M8J01"></i>
-                                        <h3><a>Services de laboratoire</a></h3>
+                                        <h3><a>Notre capital humain</a></h3>
                                         <p>
                                             Des techniciens rigoureux, compétents et attentifs, qui assurent chaque jour un travail de qualité et précis.
                                         </p>
@@ -464,7 +464,7 @@
                                     <img src="biolab_assets/images/services/1.2.webp" alt=""/>
                                     <div class="ss01Content">
                                         <i class="laf-Yk7aBo01"></i>
-                                        <h3><a>Recherche médicale</a></h3>
+                                        <h3><a>La technologie au service de la biologie</a></h3>
                                         <p>
                                             Un appareillage moderne, performant et régulièrement contôlé, qui garantit des résultats fiables.
                                         </p>
@@ -534,15 +534,10 @@
                         <div class="aboutContent">
                             <h5 class="secSubTitle heebo">À propos</h5>
                             <h2 class="secTitle">
-                                Nous proposons une large gamme de biomarqueurs.
+                                Notre équipe est notre plus grande force.
                             </h2>
                             <p>
-                                Nous réalisons toutes  les analyses de biochimie classique et spécialisée,  sérologies,  hormonolofie,hématologie, microbiologie, auto immunité, biologie moléculaire et de spermiologie
-                                Biochimie classique et spécialisée
-                                Gatro-intestinal
-                                Breath test ( test respiratoire à la urée) en vue de dépistage de l Helicobacter pylori
-                                Endocrinologie
-                                Test au synthène en vue de la exploration de la surrénale
+                                Derrière chaque résultat, il y a une équipe passionnée et engagée. Notre point fort réside dans l'expertise de nos collaborateurs, leur sens du détail et leur engagement constant pour l'excellence.
                             </p>
                             <div class="hr"></div>
                             <div class="row mb43">
@@ -586,7 +581,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <h5 class="secSubTitle2 heebo">Catégories de tests</h5>
-                        <h2 class="secTitle">Des analyses spécialisées pour tous</h2>
+                        <h2 class="secTitle">Des analyses spécialisées</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -597,7 +592,7 @@
                                     <div class="testCatItem">
                                         <i class="laf-DqlwU301"></i>
                                         <h3 class="heebo">Tests dynamiques</h3>
-                                        <p>Tests au synthène en vue de la exploration de la surrénale</p>
+                                        <p>Test au synacthène en vue de l'exploration de la fonction surrénale</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 col-lg-3 noPadding">
@@ -638,7 +633,7 @@
                     <div class="col-lg-8 col-xl-7">
                         <div class="wcuContent">
                             <h5 class="secSubTitle heebo">Pourquoi nous choisir</h5>
-                            <h2 class="secTitle">Des partenaires de confiance à l'étranger : <br> Biomnis / Cerba / Eurofins</h2>
+                            <h2 class="secTitle">Des partenaires de confiance à l'étranger : <br></h2>
                             <div class="partnerLogos">
                                 <div class="partnerLogoItem">
                                     <img src="{{ asset('biolab_assets/images/partenaires/partenaire1.jpg') }}" alt="Biomnis">
@@ -715,7 +710,7 @@
                                 <h5>Notre Adresse:</h5>
                                 <p>
                                     Immeuble ibn el jazzar,
-                                    Rue ibrhim ibn el aghlab,
+                                    Rue Ibrahim ibn el aghlab,
                                     3100 Kairouan, Tunisie
                                 </p>
                             </div>
